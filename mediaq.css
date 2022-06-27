@@ -1,0 +1,225 @@
+/* Este CSS lo estoy ocupando para el desafío complementario de Media Query pero no será considerado en el proyecto */
+
+/* Media Query - Index */
+
+@media only screen and (max-width:800px){
+    body{
+        background-color: aliceblue;
+    };
+
+    #logoheader{
+        width: 120px;
+        height: 40px;
+    }
+
+    #image{
+        width: 100%;
+        height: auto;
+    }
+
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-content:nth-child(2){
+        width: 90%;
+        height: 40%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid-content:nth-child(3){
+        width: 90%;
+        height: 40%;
+    }
+
+    .grid-content:nth-child(4){
+        width: 70%;
+        height: auto;
+    }
+
+    .grid-content:nth-child(5){
+        width: 70%;
+        height: auto;
+    }
+
+    .grid-content:nth-child(6){
+        width: 70%;
+        height: auto;
+    }
+
+    .grid-content:nth-child(7){
+        width: 70%;
+        height: auto;
+    }
+
+    .altview{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Media Query - Reviews */
+
+@media only screen and (max-width:800px){
+
+    .grid-container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-content2:nth-child(4){
+        width: 100%;
+        height: auto;
+    }
+
+    #bannerpublicidad{
+        width: 90%;
+        height: auto;
+        margin: 0% 5%;
+        border: solid 5px black;
+    }
+
+    .botondos{
+        margin: 0% 45%;
+    }
+
+    .botoncuatro{
+        margin: 0% 44%;
+    }
+
+    .imagenesdereviews{
+        width: 70%;
+        height: auto;
+        margin: 0% 15%;
+    }
+
+    .textos-reviews{
+        text-align: center;
+    }
+}
+
+/* Media Query - Blog */
+
+@media only screen and (max-width:800px){
+
+    .primeralinea{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+    }
+
+    .divprimeralinea{
+        width: 100%;
+        height: auto;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .conjuntoprimeralinea{
+        margin: 0%;
+        width: 100%;
+        height: auto;
+    }
+
+    .segundalinea{
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+    }
+
+    .divsegundalinea{
+        width: 100%;
+        height: auto;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .conjuntosegundalinea{
+        margin: 0%;
+        width: 100%;
+        height: auto;
+    }
+
+    .textos-blog{
+        text-align: center;
+        font-size: 16px;
+    }
+
+}
+
+/* Media Query - STAFF */
+
+@media only screen and (max-width:800px){
+
+    .titulo-staff{
+        font-size: 20px;
+    }
+
+    .staffuno{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divstaffuno{
+        width: 90%;
+        height: auto;
+    }
+
+    .imagenstaffuno{
+        width: 95%;
+        height: auto;
+        border-radius: 100%;
+    }
+
+    .textostaff{
+        text-align: center;
+    }
+
+    .staffdos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .divstaffdos{
+        width: 90%;
+        height: auto;
+    }
+
+    .imagenstaffdos{
+        width: 95%;
+        height: auto;
+        border-radius: 100%;
+    }
+
+}
+
+/* Media Query - Newsletter */
+
+@media only screen and (max-width:800px){
+
+    .contenedorangela{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contenedornewsletter{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+}

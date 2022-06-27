@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#logoheader{
+    width: 240px;
+    height: 80px;
+    margin: 5% 0px 5% 15px;
+}
+
+.linavbar{
+    text-decoration: none;
+    color: gold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8em;
+    margin: 15px 15px;
+    list-style: none;
+    display: inline-block;
+}
+
+.linavbar:hover{
+    color: white;
+}
+
+nav{
+    width: 100%;
+}
+
+#image{
+    width: 100%;
+    margin: 0px;
+}
+
+.tarjetasdeinicio{
+    display: flex;
+    margin: 0px 10px 5px 10px;
+    align-items: auto;
+}
+
+.reviewsimages{
+    align-items: center;
+    margin: 0px 0px;
+}
+
+#imageuno{
+    width: 100%;
+    height: auto;
+}
+
+#imagedos{
+    width: 100%;
+    height: auto;
+}
+
+.altview{
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+}
+
+.textos{
+    text-align: center;
+    margin: 5px;
+    font-family: 'Oswald', sans-serif;
+    text-justify: auto;
+}
+
+#textouno{
+    font-family: 'Fresca', sans-serif;
+}
+
+#textodos{
+    font-family: 'Fresca', sans-serif;
+}
+
+.boton{
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 0px 15px 0px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: gold;
+    border-radius: 10px;
+    width: 35%;
+    height: 20%;;
+}
+
+.grupoblog{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textosdos{
+    text-align: center;
+    margin: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.botondos{
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0px 15px 0px;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: gold;
+    border-radius: 10px;
+    width: 35%;
+    height: 20%;
+}
+
+footer{
+    color:white;
+    background-color: black;
+    display: flex;
+}
+
+.ListaDeSecciones{
+    display: flex;
+    float: right;
+    list-style: none;
+}
+
+.iconsgroup{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    margin: 10px 10px;
+}
+
+.iconsgroup img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin: 5px 15px;
+}
+
+#logofooter{
+    width: 360px;
+    height: 120px;
+    margin: 10px 0px 0px 20px;
+}
+
+.mapaeiconos{
+    width: 100%;
+    height: 100%;
+    float: right;
+    align-items: right;
+    display: flex;
+    flex-direction: column;
+    align-content: center; 
+}
+
+.ListaDeSeccionesDos{
+    display: flex;
+    margin: 0px;
+    padding: 10px 0px 0px 20px;
+}
+
+.linavbardos{
+    text-decoration: none;
+    color: gold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin: 15px 15px;
+    list-style: none;
+}
+
+.ListaDeSeccionesDos a{
+    color: gold;
+    text-decoration: none;
+}
+
+.ListaDeSeccionesDos a:hover{
+    color: white;
+}
+
+.sucursal{
+    text-align: auto;
+    margin: 0px 25px;
+}
+
+.lineahorizontal{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px 15px 0px 10px;
+}
+
+#nuestrasucursal{
+    font-size: 35px;
+    margin: 0px;
+}
+
+#mapa{
+    margin: 10px 0px 0px 0px;
+}
+
+.footer{
+    display: flex;
+}
+
+.divfooterizquierdo{
+    width: 50%;
+}
+
+.divfooterderecho{
+    width: 50%;
+}
+
+iframe{
+    height: 100%;
+}
+
+#textosucursal{
+    margin: 0px 15px 10px 10px;
+    font-family: 'Fresca', sans-serif;
+}
+
+.primeralinea{
+    width: 100%;
+    display: flex;
+    margin: 0px 0px 15px 0px;
+}
+
+.divprimeralinea{
+    width: 33%;
+}
+
+.conjuntoprimeralinea{
+    width: 95%;
+    margin: 10px;
+}
+
+.segundalinea{
+    width: 100%;
+    display: flex;
+    margin: 0px 0px 15px 0px;
+}
+
+.divsegundalinea{
+    width: 33%;
+}
+
+.conjuntosegundalinea{
+    width: 95%;
+    margin: 10px;
+}
+
+#banner-2{
+    width: 100%;
+
+}
+
+.titulosprimeraysegundalinea{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.textosprimeraysegundalinea{
+    font-family: 'Fresca', sans-serif;
+    text-align: center;
+}
+
+#bannertres{
+    width: 100%;
+    height: 100%;
+}
+
+.reviewizquierda{
+    width: 75%;
+    margin: 10px 15px;
+}
+
+.reviewcarrusel{
+    display: flex;
+    width: 100%;
+    height: 33%;
+    margin: 0px 0px 15px 0px;
+}
+
+.reviewcarruselhijos{
+    width: 25%;
+}
+
+.reviewcompleto{
+    display: flex;
+}
+
+.reviewderecha{
+    width: 25%;
+    background-color: gold;
+    border: 2px solid black;
+    margin: 10px 15px;
+}
+
+.imagenesdereviews{
+    width: 100%;
+    height:50%px;
+    margin: 0%;
+}
+
+.killbill{
+    display: flex;
+}
+
+.matrix{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imagenesprincipales{
+    width: 33%;
+    margin: 10px 10px;
+}
+
+#oren{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+
+.contenedortexto{
+    width: 66%;
+    margin: 15px;
+}
+
+#matrix{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+
+.botoncuatro{
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 70px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: gold;
+    border-radius: 10px;
+}
+
+.contenedorangela{
+    background-color: gold;
+}
+
+#contenedorangela{
+    border: solid 5px black;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    margin: 5px 550px;
+}
+
+.titulocarta{
+    text-align: center;
+}
+
+.textocarta{
+    text-align: center;
+    margin: 0px 50px;
+}
+
+.contenedornewsletter{
+    display: flex;
+    width: 100%;
+    margin: 15px 10px;
+}
+
+.contenedorimagennews{
+    width: 50%;
+    margin-right: 15px;
+}
+
+.contenedorform{
+    width: 50%;
+    text-justify: center;
+}
+
+#imagenformulario{
+    width: 100%;
+}
+
+.staffuno{
+    display: flex;
+    width: 100%;
+}
+
+.divstaffuno{
+    width: 33%;
+}
+
+.imagenstaffuno{
+    width: 95%;
+    margin: 5px;
+}
+
+.staffdos{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.divstaffdos{
+    width: 33%;
+}
+
+.imagenstaffdos{
+    width: 95%;
+    margin: 5px;
+}
+
+.textostaff{
+    text-align: center;
+    margin: 0px;
+}
+
+p{
+    font-family: 'Fresca', sans-serif;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+h4{
+    font-family: 'Oswald', sans-serif;
+}
+
+h5{
+    font-family: 'Oswald', sans-serif;
+}
+
+h6{
+    font-family: 'Oswald', sans-serif;
+}
+
+.titulostaff{
+    text-align: center;
+}
+
+/* De aquí en adelante es el html donde se aplica grids, flex y box modeling */
+
+.divdeprueba{
+    width: 100%;
+    height: 500px;
+}
+
+.tituloprueba{
+    margin: 20px;
+}
+
+.imageneskillbill{
+    width: 75%;
+    margin: 10px 0px 5px 20px;
+}
+
+.textoskillbill{
+    width: 75%;
+    margin: 10px 0px 5px 20px;
+    font-size: 35px;
+}
+
+/* Grilla index - Contenido */
+
+.grid-container{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    /*border: 1px solid black;*/
+    margin: 1px 0px 15px 0px;
+    grid-template-areas:
+    "banner banner banner banner"
+    "review-uno review-uno review-dos review-dos"
+    "blog-uno blog-dos blog-tres blog-cuatro";
+}
+
+.grid-content:first-child{
+    grid-column: 1/5;
+    grid-area: banner;
+}
+
+.grid-content{
+    /*border: 1px solid black;*/
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid-content:nth-child(2){
+    grid-column: 1/3;
+    grid-area: review-uno;
+}
+
+.grid-content:nth-child(3){
+    grid-column: 3/5;
+    grid-area: review-dos;
+}
+
+.grid-content:nth-child(4){
+    grid-area: blog-uno;
+}
+
+.grid-content:nth-child(5){
+    grid-area: blog-dos;
+}
+
+.grid-content:nth-child(6){
+    grid-area: blog-tres;
+}
+
+.grid-content:nth-child(7){
+    grid-area: blog-cuatro;
+}
+
+/* Grilla Reviews */
+
+.grid-container2{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    margin: 1px 0px 15px 0px;
+}
+
+.grid-content2:first-child{
+    grid-column: 1/9;
+}
+
+.grid-content2:nth-child(2){
+    grid-column: 1/2;
+}
+
+.grid-content2:nth-child(3){
+    grid-column: 2/5;
+}
+
+.grid-content2:nth-child(4){
+    grid-column: 5/9;
+    grid-row: 2/5;
+}
+
+#bannerpublicidad{
+    width: 100%;
+    height: 100%;
+}
+
+.grid-content2:nth-child(5){
+    grid-column: 1/4;
+}
+
+.grid-content2:nth-child(6){
+    grid-column: 4/5
+}
+
+.grid-content2:nth-child(7){
+    grid-column: 1/2;
+}
+
+.grid-content2:nth-child(8){
+    grid-column: 2/3;
+}
+
+.grid-content2:nth-child(9){
+    grid-column: 3/4;
+}
+
+.grid-content2:nth-child(10){
+    grid-column: 4/5;
+}
