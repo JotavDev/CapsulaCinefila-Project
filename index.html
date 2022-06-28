@@ -6,67 +6,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaq.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Cápsula Cinéfila</title>
 </head>
 
 <body>
 
     <header>
-        <a href="index.html"><img id="logoheader" src="./multimedia/logo.png" alt="Logo de Cápsula Cinéfila" title="Logo de Cápsula Cinéfila"></a>
-        <nav>
-            <ul class="ListaDeSecciones">
-                <li><a class="linavbar" href="index.html">Lobby</a></li>
-                <li><a class="linavbar" href="./pages/reviews.html">Reviews</a></li>
-                <li><a class="linavbar" href="./pages/blog.html">Blog</a></li>
-                <li><a class="linavbar" href="./pages/newsletter.html">Newsletter</a></li>
-                <li><a class="linavbar" href="./pages/staff.html">Staff</a></li>
-            </ul>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand float-right col-1" href="index.html"><img style="max-width:155%; margin-top: -7px;" class="imagen-logo-nav" src="./multimedia/logo.png" alt="Logo"></a>
+              <div class="navbar-collapse collapse" id="navbarColor01" style="">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Lobby <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/reviews.html">Reviews</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/newsletter.html">Newsletter</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/staff.html">Staff</a>
+                  </li>
+                </ul>
+              </div>
         </nav>
     </header>
 
     <main class="grid-container">
 
-        <!-- Carrusel --> 
-        <div class="grid-content">
-            <img id="image" src="./multimedia/banner-1.png" alt="banner de tipo collage. Se muestra una sala de cine" title="Banner de tipo collage, se muestra una sala de cine" class="banner-1">
-        </div>
+        <!-- Carrusel -->
+        <div id="carouselExampleIndicators" class="carousel slide grid-content" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./multimedia/banner-1.png" class="d-block w-100 banner-1" alt="banner de tipo collage. Se muestra una sala de cine" title="Banner de tipo collage, se muestra una sala de cine">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
         <!-- Reviews de la semana-->
-        <div class="grid-content grid-content-hover">
-            <img class="reviewsimages imagenesanimadas" id="imageuno" src="./multimedia/review-1.png" alt="poster sobre el review de la película Solo una mujer" title="Aynur Surucu, personaje principal">
-            <h2 class="textos">Review de "Sólo una mujer"</h2>
-            <p class="textos" id="textouno">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vero voluptatum exercitationem architecto blanditiis? Suscipit, aliquam modi perferendis at illo nostrum possimus. Labore quae voluptatibus necessitatibus, unde natus iusto ad?</p>
-            <a class="boton buttom" href="./pages/reviews.html">Lee la nota acá</a>
-
+        <div class="card grid-content">
+            <img src="./multimedia/review-1.png" class="card-img-top reviewsimages imagenesanimadas" id="imageuno"  alt="poster sobre el review de la película Solo una mujer" title="Aynur Surucu, personaje principal">
+            <div class="card-body">
+            <h5 class="card-title">Sólo una mujer - Review</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <a class="btn btn-dark boton buttom" href="./pages/reviews.html">Lee la nota acá</a>
+            </div>
         </div>
-        <div class="grid-content grid-content-hover">
-            <img class="reviewsimages imagenesanimadas" id="imagedos" src="./multimedia/review-2.png" alt="poster sobre el review de la película Ex-Machina" title="AVA">
-            <h2 class="textos">Review de "Ex-Machina"</h2>
-            <p class="textos" id="textodos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vero voluptatum exercitationem architecto blanditiis? Suscipit, aliquam modi perferendis at illo nostrum possimus. Labore quae voluptatibus necessitatibus, unde natus iusto ad?</p>
-            <a class="boton buttom" href="./pages/reviews.html">Lee la nota acá</a>
-
+        
+        <div class="card grid-content">
+            <img class="reviewsimages imagenesanimadas card-img-top" id="imagedos" src="./multimedia/review-2.png" alt="poster sobre el review de la película Ex-Machina" title="AVA">
+            <div class="card-body">
+            <h5 class="card-title">Ex-Machina - Review</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <a class="boton buttom btn btn-dark" href="./pages/reviews.html">Lee la nota acá</a>
+            </div>
         </div>
 
         <!-- Blog & Reviews destacados -->
-        <div class="grid-content">
-            <img class="altview" src="./multimedia/blog-1.png" alt="poster sobre la influencia de la cultura griega en el cine" title="El cine y la cultura griega">
-            <p class="textosdos">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            <a class="botondos buttom" href="./pages/blog.html">Ver más</a>
+        <div class="card grid-content">
+            <img class="card-img-top altview" src="./multimedia/blog-1.png" alt="poster sobre la influencia de la cultura griega en el cine" title="El cine y la cultura griega">
+            <div class="card-body">
+                <h5 class="card-title">Grecia y cine</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia pariatur dolore reprehenderit iste voluptatibus nisi sequi dolorum optio aspernatur, illum assumenda itaque, a vel? Pariatur maxime hic voluptas dolore?</p>
+                <a class="btn btn-dark boton buttom" href="./pages/blog.html">Ver más</a>
+            </div>
         </div>
-        <div class="grid-content">
-            <video class="altview" src="./multimedia/blog-2.mp4" alt="GIF de un samurai con ojos saltones. Este GIF representa el review de la película: La casa de las dagas voladoras" title="Review de la casa de las dagas voladoras" muted autoplay loop></video>
-            <p class="textosdos">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            <a class="botondos buttom" href="./pages/reviews.html">Ver más</a>
+
+        <div class="card grid-content">
+            <video class="altview card-img-top" src="./multimedia/blog-2.mp4" alt="GIF de un samurai con ojos saltones. Este GIF representa el review de la película: La casa de las dagas voladoras" title="Review de la casa de las dagas voladoras" muted autoplay loop></video>
+            <div class="card-body">
+                <h5 class="card-title">La casa de las dagas voladoras</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia pariatur dolore reprehenderit iste voluptatibus nisi sequi dolorum optio aspernatur, illum assumenda itaque, a vel? Pariatur maxime hic voluptas dolore?</p>
+                <a class="btn btn-dark boton buttom" href="./pages/reviews.html">Ver más</a>
+            </div>
         </div>
-        <div class="grid-content">
-            <img class="altview" src="./multimedia/blog-3.png" alt="Imagen sobre una mujer caminando por las calles de París con un vestido ostentoso" title="Cine y moda">
-            <p class="textosdos">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            <a class="botondos buttom" href="./pages/blog.html">Ver más</a>
+
+        <div class="card grid-content">
+            <img class="altview card-img-top" src="./multimedia/blog-3.png" alt="Imagen sobre una mujer caminando por las calles de París con un vestido ostentoso" title="Cine y moda">
+            <div class="card-body">
+                <h5 class="card-title">La moda y el cine</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia pariatur dolore reprehenderit iste voluptatibus nisi sequi dolorum optio aspernatur, illum assumenda itaque, a vel? Pariatur maxime hic voluptas dolore?</p>
+                <a class="btn btn-dark boton buttom" href="./pages/blog.html">Ver más</a>
+            </div>
         </div>
-        <div class="grid-content">
-            <img class="altview" src="./multimedia/blog-4.png" alt="El director Quentin Tarantino en una foto" title="Quentin Tarantino">
-            <p class="textosdos">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            <a class="botondos buttom" href="./pages/blog.html">Ver más</a>
+
+        <div class="card grid-content">
+            <img class="card-img-top altview" src="./multimedia/blog-4.png" alt="El director Quentin Tarantino en una foto" title="Quentin Tarantino" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Epítome de Quentin Tarantino</h5>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia pariatur dolore reprehenderit iste voluptatibus nisi sequi dolorum optio aspernatur, illum assumenda itaque, a vel? Pariatur maxime hic voluptas dolore?</p>
+                <a class="btn btn-dark boton buttom" href="./pages/blog.html">Ver más</a>
+            </div>
         </div>
     </main>
 
@@ -111,6 +170,8 @@
                 </ul>
             </div>
         </div>
-    </footer> -->
+    </footer>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

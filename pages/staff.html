@@ -6,24 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../mediaq.css">
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
-    </style>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <title>Staff | Cápsula Cinéfila</title>
 </head>
 <body>
     <header>
-        <a href="../index.html"><img id="logoheader" src="../multimedia/logo.png" alt="Logo de Cápsula Cinéfila" title="Logo de Cápsula Cinéfila"></a>
-        <nav>
-            <ul class="ListaDeSecciones">
-                <li><a class="linavbar" href="../index.html">Lobby</a></li>
-                <li><a class="linavbar" href="reviews.html">Reviews</a></li>
-                <li><a class="linavbar" href="blog.html">Blog</a></li>
-                <li><a class="linavbar" href="newsletter.html">Newsletter</a></li>
-                <li><a class="linavbar" href="staff.html">Staff</a></li>
-            </ul>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand float-right col-1" href="../index.html"><img style="max-width:155%; margin-top: -7px;" class="imagen-logo-nav" src="../multimedia/logo.png" alt="Logo"></a>
+              <div class="navbar-collapse collapse" id="navbarColor01" style="">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Lobby <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./reviews.html">Reviews</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./newsletter.html">Newsletter</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./staff.html">Staff</a>
+                  </li>
+                </ul>
+              </div>
         </nav>
     </header>
 
@@ -121,6 +132,7 @@
         </div>
 
     </footer>
-
+    <script src="../js/jquery.slim.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
