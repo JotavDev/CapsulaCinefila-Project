@@ -75,6 +75,7 @@ nav{
     margin: 5px;
     font-family: 'Oswald', sans-serif;
     text-justify: auto;
+    bottom: 0%;
 }
 
 #textouno{
@@ -95,7 +96,13 @@ nav{
     color: gold;
     border-radius: 10px;
     width: 35%;
-    height: 20%;;
+    height: 20%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.boton:hover{
+    transform: scale(1.1)
 }
 
 .grupoblog{
@@ -122,6 +129,12 @@ nav{
     border-radius: 10px;
     width: 35%;
     height: 20%;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.botondos:hover{
+    transform: scale(1.1);    
 }
 
 footer{
@@ -312,7 +325,7 @@ iframe{
 
 .imagenesdereviews{
     width: 100%;
-    height:50%px;
+    height:50%;
     margin: 0%;
 }
 
@@ -356,6 +369,12 @@ iframe{
     background-color: black;
     color: gold;
     border-radius: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.botoncuatro:hover{
+    background-color: rgb(44, 44, 44);
 }
 
 .contenedorangela{
@@ -527,18 +546,42 @@ h6{
 
 .grid-content:nth-child(4){
     grid-area: blog-uno;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.grid-content:nth-child(4):hover{
+    transform: translateY(-10px);
 }
 
 .grid-content:nth-child(5){
     grid-area: blog-dos;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.grid-content:nth-child(5):hover{
+    transform: translateY(-10px);
 }
 
 .grid-content:nth-child(6){
     grid-area: blog-tres;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.grid-content:nth-child(6):hover{
+    transform: translateY(-10px);
 }
 
 .grid-content:nth-child(7){
     grid-area: blog-cuatro;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.grid-content:nth-child(7):hover{
+    transform: translateY(-10px);
 }
 
 /* Grilla Reviews */
@@ -583,16 +626,120 @@ h6{
 
 .grid-content2:nth-child(7){
     grid-column: 1/2;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.grid-content2:nth-child(7):hover{
+    transform: translateY(-10px);
 }
 
 .grid-content2:nth-child(8){
     grid-column: 2/3;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.grid-content2:nth-child(8):hover{
+    transform: translateY(-10px);
 }
 
 .grid-content2:nth-child(9){
     grid-column: 3/4;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.grid-content2:nth-child(9):hover{
+    transform: translateY(-10px);
 }
 
 .grid-content2:nth-child(10){
     grid-column: 4/5;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.grid-content2:nth-child(10):hover{
+    transform: translateY(10px);
+}
+
+.divprimeralinea1{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.divprimeralinea1:hover{
+    transform: translateX(20px)
+}
+
+.divprimeralinea2{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.divprimeralinea2:hover{
+    transform: translateX(20px)
+}
+
+.divprimeralinea3{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.divprimeralinea3:hover{
+    transform: translateX(20px)
+}
+
+.divsegundalinea1{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.divsegundalinea1:hover{
+    transform: translateX(-20px)
+}
+
+.divsegundalinea2{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.divsegundalinea2:hover{
+    transform: translateX(-20px)
+}
+
+.divsegundalinea3{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.divsegundalinea3:hover{
+    transform: translateX(-20px)
+}
+
+.grid-content-hover:hover{
+    animation: revelacion 0.5s;
+}
+
+@keyframes revelacion{
+    0%{
+        height: 0%;
+    }
+
+    25%{
+        height: 25%;
+    }
+
+    50%{
+        height: 50%;
+    }
+
+    75%{
+        height: 75%;
+    }
+
+    100%{
+        height: 100%;
+    }
 }
