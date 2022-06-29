@@ -168,37 +168,24 @@
         justify-content: center;
     }
 
-    .divstaffuno{
-        width: 90%;
-        height: auto;
-    }
-
     .imagenstaffuno{
-        width: 95%;
-        height: auto;
-        border-radius: 100%;
+        width: 100%;
+        height: 70vh;
     }
 
     .textostaff{
         text-align: center;
     }
 
-    .staffdos{
+    .staff-flex{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .divstaffdos{
-        width: 90%;
-        height: auto;
-    }
-
-    .imagenstaffdos{
-        width: 95%;
-        height: auto;
-        border-radius: 100%;
+    .divdeprueba{
+        height: 100%;
     }
 
 }

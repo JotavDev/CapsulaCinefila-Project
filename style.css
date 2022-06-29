@@ -775,18 +775,18 @@ h6{
     font-size: 45px;
 }
 
-.divdeprueba{
-    height: 70vh;
+.divdepruebastaff{
+    width: 25%;
+    height: 62vh;
     overflow: hidden;
-    background-color: black;
-    margin: 5px;
+    margin: 0px 10px;
     border-radius: 15px;
+    border: solid grey 1.2px;
 }
 
 .divdeprueba2{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.253);
 }
 
 .contenedortextosaparicion{
@@ -803,12 +803,12 @@ h6{
     color: white;
 }
 
-.divdeprueba:hover .contenedortextosaparicion{
+.divdepruebastaff:hover .contenedortextosaparicion{
     opacity: 100%;
 }
 
 .textostaff{
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     width: 80%;
 }
 
@@ -826,9 +826,9 @@ h6{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin:10px;
     height: 70vh;
 }
 
-
-
+.card-columns{
+    margin: 25px 10px 15px 10px;
+}
