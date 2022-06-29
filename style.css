@@ -336,11 +336,13 @@ iframe{
 .matrix{
     display: flex;
     flex-direction: row-reverse;
+    border-radius: 15px;
 }
 
 .imagenesprincipales{
     width: 33%;
     margin: 10px 10px;
+    border-radius: 2px;
 }
 
 #oren{
@@ -402,6 +404,8 @@ iframe{
     display: flex;
     width: 100%;
     margin: 15px 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .contenedorimagennews{
@@ -412,6 +416,9 @@ iframe{
 .contenedorform{
     width: 50%;
     text-justify: center;
+    border: solid black 1.2px;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 #imagenformulario{
@@ -617,6 +624,12 @@ h6{
 
 .grid-content2:nth-child(2){
     grid-column: 1/2;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.grid-content2:nth-child(2):hover{
+    transform: translateX(5px);
 }
 
 .grid-content2:nth-child(3){
@@ -638,7 +651,14 @@ h6{
 }
 
 .grid-content2:nth-child(6){
-    grid-column: 4/5
+    grid-column: 4/5;
+    border-radius: 15px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.grid-content2:nth-child(6):hover{
+    transform: translateX(-5px);
 }
 
 .grid-content2:nth-child(7){
@@ -777,11 +797,10 @@ h6{
 
 .divdepruebastaff{
     width: 25%;
-    height: 62vh;
+    height: 60vh;
     overflow: hidden;
     margin: 0px 10px;
     border-radius: 15px;
-    border: solid grey 1.2px;
 }
 
 .divdeprueba2{
@@ -831,4 +850,15 @@ h6{
 
 .card-columns{
     margin: 25px 10px 15px 10px;
+}
+
+.contenedorform{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#boton-form{
+    margin-top: 10px;
 }
