@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaq.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./multimedia/favicon.png" type="image/x-icon">
     <title>Cápsula Cinéfila</title>
 </head>
 
@@ -71,7 +73,7 @@
           </div>
 
         <!-- Reviews de la semana-->
-        <div class="card grid-content">
+        <div data-aos="fade-up" class="card grid-content">
             <img src="./multimedia/review-1.png" class="card-img-top reviewsimages imagenesanimadas" id="imageuno"  alt="poster sobre el review de la película Solo una mujer" title="Aynur Surucu, personaje principal">
             <div class="card-body">
             <h5 class="card-title">Sólo una mujer - Review</h5>
@@ -81,7 +83,10 @@
             </div>
         </div>
         
-        <div class="card grid-content">
+        <div class="card grid-content" data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500">
             <img class="reviewsimages imagenesanimadas card-img-top" id="imagedos" src="./multimedia/review-2.png" alt="poster sobre el review de la película Ex-Machina" title="AVA">
             <div class="card-body">
             <h5 class="card-title">Ex-Machina - Review</h5>
@@ -92,7 +97,7 @@
         </div>
 
         <!-- Blog & Reviews destacados -->
-        <div class="card grid-content">
+        <div class="card grid-content" data-aos="fade-right">
             <img class="card-img-top altview" src="./multimedia/blog-1.png" alt="poster sobre la influencia de la cultura griega en el cine" title="El cine y la cultura griega">
             <div class="card-body">
                 <h5 class="card-title">Grecia y cine</h5>
@@ -101,7 +106,7 @@
             </div>
         </div>
 
-        <div class="card grid-content">
+        <div class="card grid-content" data-aos="fade-up">
             <video class="altview card-img-top" src="./multimedia/blog-2.mp4" alt="GIF de un samurai con ojos saltones. Este GIF representa el review de la película: La casa de las dagas voladoras" title="Review de la casa de las dagas voladoras" muted autoplay loop></video>
             <div class="card-body">
                 <h5 class="card-title">La casa de las dagas voladoras</h5>
@@ -110,7 +115,7 @@
             </div>
         </div>
 
-        <div class="card grid-content">
+        <div class="card grid-content" data-aos="fade-down">
             <img class="altview card-img-top" src="./multimedia/blog-3.png" alt="Imagen sobre una mujer caminando por las calles de París con un vestido ostentoso" title="Cine y moda">
             <div class="card-body">
                 <h5 class="card-title">La moda y el cine</h5>
@@ -119,7 +124,7 @@
             </div>
         </div>
 
-        <div class="card grid-content">
+        <div class="card grid-content" data-aos="fade-left">
             <img class="card-img-top altview" src="./multimedia/blog-4.png" alt="El director Quentin Tarantino en una foto" title="Quentin Tarantino" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Epítome de Quentin Tarantino</h5>
@@ -173,5 +178,9 @@
     </footer>
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

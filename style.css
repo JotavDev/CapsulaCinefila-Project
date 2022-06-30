@@ -553,7 +553,7 @@ h6{
 }
 
 .grid-content:nth-child(2):hover{
-    transform: translateY(-10px);
+    transform: translateY(-10px) !important;
 }
 
 .grid-content:nth-child(3){
@@ -565,7 +565,7 @@ h6{
 }
 
 .grid-content:nth-child(3):hover{
-    transform: translateY(-10px);
+    transform: translateY(-10px) !important;
 }
 
 .grid-content:nth-child(4){
@@ -575,7 +575,7 @@ h6{
 }
 
 .grid-content:nth-child(4):hover{
-    transform: translateY(-10px);
+    transform: translateY(-10px) !important;
 }
 
 .grid-content:nth-child(5){
@@ -585,7 +585,7 @@ h6{
 }
 
 .grid-content:nth-child(5):hover{
-    transform: translateY(-10px);
+    transform: translateY(-10px) !important;
 }
 
 .grid-content:nth-child(6){
@@ -595,7 +595,7 @@ h6{
 }
 
 .grid-content:nth-child(6):hover{
-    transform: translateY(-10px);
+    transform: translateY(-10px) !important;
 }
 
 .grid-content:nth-child(7){
@@ -605,7 +605,7 @@ h6{
 }
 
 .grid-content:nth-child(7):hover{
-    transform: translateY(-10px);
+    transform: translateY(-10px)!important;
 }
 
 /* Grilla Reviews */
