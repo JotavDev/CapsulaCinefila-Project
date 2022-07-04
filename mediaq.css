@@ -2,15 +2,10 @@
 
 /*Media Query - Index*/
 
-/*@media only screen and (max-width:800px){
+@media only screen and (max-width:800px){
     body{
         background-color: aliceblue;
     };
-
-    #logoheader{
-        width: 120px;
-        height: 40px;
-    }
 
     #image{
         width: 100%;
@@ -60,11 +55,75 @@
         width: 100%;
         height: auto;
     }
+
+    .ListaDeSeccionesDos{
+        width: 100%;
+        padding: 0%;
+        margin: 0px 0px 0px 16px;
+    }
+
+    .linavbardos{
+        font-size: 60%;
+        margin: 5px 5px;
+        list-style: none;
+    }
+
+    .divfooterizquierdo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .lineahorizontal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nuestrasucursal{
+        font-size: 16px;
+    }
+
+    #telefono{
+        font-size: 10px;
+    }
+
+    #textosucursal{
+        font-size: 10px;
+    }
+
+    .sucursal{
+        margin: 0px 0px 0px 16px;
+    }
+
+    .mapaeiconos{
+        width: 100%;
+    }
+
+    .divfooterderecho{
+        width: 100%;
+        height: auto;
+    }
+
+    .iconsgroup img{
+        width: 30%;
+        height: auto;
+    }
+
 }
 
 /*Media Query - Reviews*/
 
-/*@media only screen and (max-width:800px){
+@media only screen and (max-width:800px){
 
     .grid-container2{
         display: flex;
@@ -102,11 +161,13 @@
     .textos-reviews{
         text-align: center;
     }
+
+
 }
 
 /*Media Query - Blog*/
 
-/*@media only screen and (max-width:800px){
+@media only screen and (max-width:800px){
 
     .primeralinea{
         display: flex;
@@ -155,7 +216,7 @@
 
 /*Media Query - STAFF*/
 
-/*@media only screen and (max-width:800px){
+@media only screen and (max-width:800px){
 
     .titulo-staff{
         font-size: 20px;
