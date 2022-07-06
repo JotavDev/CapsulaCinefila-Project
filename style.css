@@ -14,12 +14,6 @@ header{
     align-content: center;
 }
 
-#logoheader{
-    width: 240px;
-    height: 80px;
-    margin: 5% 0px 5% 15px;
-}
-
 .linavbar{
     text-decoration: none;
     color: gold;
@@ -49,21 +43,6 @@ nav{
     align-items: auto;
 }
 
-.reviewsimages{
-    align-items: center;
-    margin: 0px 0px;
-}
-
-#imageuno{
-    width: 100%;
-    height: auto;
-}
-
-#imagedos{
-    width: 100%;
-    height: auto;
-}
-
 .altview{
     width: 100%;
     height: auto;
@@ -87,16 +66,7 @@ nav{
 }
 
 .boton{
-    text-align: center;
-    text-decoration: none;
-    margin: 15px 0px 15px 0px;
-    font-size: 20px;
     font-family: 'Oswald', sans-serif;
-    background-color: black;
-    color: gold;
-    border-radius: 10px;
-    width: 35%;
-    height: 20%;
     transition-property: all;
     transition-duration: 1s;
 }
@@ -140,7 +110,7 @@ nav{
 footer{
     color:white;
     background-color: black;
-    display: flex;
+    display: flex !important;
 }
 
 .ListaDeSecciones{
@@ -165,15 +135,14 @@ footer{
 }
 
 #logofooter{
-    width: 360px;
-    height: 120px;
+    width: 40%;
+    height: 13.3%;
     margin: 10px 0px 0px 20px;
 }
 
 .mapaeiconos{
     width: 100%;
     height: 100%;
-    float: right;
     align-items: right;
     display: flex;
     flex-direction: column;
@@ -221,13 +190,9 @@ footer{
     margin: 0px;
 }
 
-#mapa{
+/*#mapa{
     margin: 10px 0px 0px 0px;
-}
-
-.footer{
-    display: flex;
-}
+}*/
 
 .divfooterizquierdo{
     width: 50%;
@@ -336,11 +301,13 @@ iframe{
 .matrix{
     display: flex;
     flex-direction: row-reverse;
+    border-radius: 15px;
 }
 
 .imagenesprincipales{
     width: 33%;
     margin: 10px 10px;
+    border-radius: 2px;
 }
 
 #oren{
@@ -402,6 +369,8 @@ iframe{
     display: flex;
     width: 100%;
     margin: 15px 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .contenedorimagennews{
@@ -412,6 +381,9 @@ iframe{
 .contenedorform{
     width: 50%;
     text-justify: center;
+    border: solid black 1.2px;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 #imagenformulario{
@@ -425,11 +397,14 @@ iframe{
 
 .divstaffuno{
     width: 33%;
+    height: 100%;
 }
 
 .imagenstaffuno{
-    width: 95%;
-    margin: 5px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: black;
 }
 
 .staffdos{
@@ -507,83 +482,6 @@ h6{
     font-size: 35px;
 }
 
-/* Grilla index - Contenido */
-
-.grid-container{
-    display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
-    /*border: 1px solid black;*/
-    margin: 1px 0px 15px 0px;
-    grid-template-areas:
-    "banner banner banner banner"
-    "review-uno review-uno review-dos review-dos"
-    "blog-uno blog-dos blog-tres blog-cuatro";
-}
-
-.grid-content:first-child{
-    grid-column: 1/5;
-    grid-area: banner;
-}
-
-.grid-content{
-    /*border: 1px solid black;*/
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.grid-content:nth-child(2){
-    grid-column: 1/3;
-    grid-area: review-uno;
-}
-
-.grid-content:nth-child(3){
-    grid-column: 3/5;
-    grid-area: review-dos;
-}
-
-.grid-content:nth-child(4){
-    grid-area: blog-uno;
-    transition-property: all;
-    transition-duration: 1s;
-}
-
-.grid-content:nth-child(4):hover{
-    transform: translateY(-10px);
-}
-
-.grid-content:nth-child(5){
-    grid-area: blog-dos;
-    transition-property: all;
-    transition-duration: 1s;
-}
-
-.grid-content:nth-child(5):hover{
-    transform: translateY(-10px);
-}
-
-.grid-content:nth-child(6){
-    grid-area: blog-tres;
-    transition-property: all;
-    transition-duration: 1s;
-}
-
-.grid-content:nth-child(6):hover{
-    transform: translateY(-10px);
-}
-
-.grid-content:nth-child(7){
-    grid-area: blog-cuatro;
-    transition-property: all;
-    transition-duration: 1s;
-}
-
-.grid-content:nth-child(7):hover{
-    transform: translateY(-10px);
-}
-
 /* Grilla Reviews */
 
 .grid-container2{
@@ -600,6 +498,12 @@ h6{
 
 .grid-content2:nth-child(2){
     grid-column: 1/2;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.grid-content2:nth-child(2):hover{
+    transform: translateX(5px);
 }
 
 .grid-content2:nth-child(3){
@@ -621,7 +525,14 @@ h6{
 }
 
 .grid-content2:nth-child(6){
-    grid-column: 4/5
+    grid-column: 4/5;
+    border-radius: 15px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.grid-content2:nth-child(6):hover{
+    transform: translateX(-5px);
 }
 
 .grid-content2:nth-child(7){
@@ -742,4 +653,116 @@ h6{
     100%{
         height: 100%;
     }
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group{
+    margin: 0px 10px;
+}
+
+#titulo-staff{
+    margin: 50px 0px 15px 0px;
+    font-size: 45px;
+}
+
+.divdepruebastaff{
+    width: 25%;
+    height: 60vh;
+    overflow: hidden;
+    margin: 0px 10px;
+    border-radius: 15px;
+}
+
+.divdeprueba2{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedortextosaparicion{
+    opacity: 1%;
+    transform: translateY(-100%);
+    background-color: rgba(7, 7, 7, 0.644);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    transition: 0.5s;
+    color: white;
+}
+
+.divdepruebastaff:hover .contenedortextosaparicion{
+    opacity: 100%;
+}
+
+.textostaff{
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+.contenedortextosstaff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.staff-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.card-columns{
+    margin: 25px 10px 15px 10px;
+}
+
+.contenedorform{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#boton-form{
+    margin-top: 10px;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.col-md-6{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.col-md-6:hover{
+    transform: translateY(-10px) !important;
+}
+
+.col-md-3{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.col-md-3:hover{
+    transform: translateY(-10px) !important;
+}
+
+.card{
+    padding: 0px !important;
+}
+
+.col-md-12{
+    padding: 0px !important;
 }

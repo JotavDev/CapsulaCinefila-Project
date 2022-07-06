@@ -1,16 +1,11 @@
 /* Este CSS lo estoy ocupando para el desafío complementario de Media Query pero no será considerado en el proyecto */
 
-/* Media Query - Index */
+/*Media Query - Index*/
 
 @media only screen and (max-width:800px){
     body{
         background-color: aliceblue;
     };
-
-    #logoheader{
-        width: 120px;
-        height: 40px;
-    }
 
     #image{
         width: 100%;
@@ -60,9 +55,74 @@
         width: 100%;
         height: auto;
     }
+
+    .ListaDeSeccionesDos{
+        width: 100%;
+        padding: 0%;
+        margin: 0px 0px 0px 16px;
+    }
+
+    .linavbardos{
+        font-size: 100%;
+        margin: 5px 5px;
+        list-style: none;
+    }
+
+    .divfooterizquierdo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .lineahorizontal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nuestrasucursal{
+        font-size: 16px;
+    }
+
+    #telefono{
+        font-size: 10px;
+    }
+
+    #textosucursal{
+        font-size: 10px;
+    }
+
+    .sucursal{
+        margin: 0px 0px 0px 16px;
+    }
+
+    .mapaeiconos{
+        width: 100%;
+    }
+
+    .divfooterderecho{
+        width: 100%;
+        height: auto;
+    }
+
+    .iconsgroup img{
+        width: 30%;
+        height: auto;
+    }
+
 }
 
-/* Media Query - Reviews */
+/*Media Query - Reviews*/
 
 @media only screen and (max-width:800px){
 
@@ -102,9 +162,11 @@
     .textos-reviews{
         text-align: center;
     }
+
+
 }
 
-/* Media Query - Blog */
+/*Media Query - Blog*/
 
 @media only screen and (max-width:800px){
 
@@ -153,7 +215,7 @@
 
 }
 
-/* Media Query - STAFF */
+/*Media Query - STAFF*/
 
 @media only screen and (max-width:800px){
 
@@ -168,44 +230,31 @@
         justify-content: center;
     }
 
-    .divstaffuno{
-        width: 90%;
-        height: auto;
-    }
-
     .imagenstaffuno{
-        width: 95%;
-        height: auto;
-        border-radius: 100%;
+        width: 100%;
+        height: 70vh;
     }
 
     .textostaff{
         text-align: center;
     }
 
-    .staffdos{
+    .staff-flex{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .divstaffdos{
-        width: 90%;
-        height: auto;
-    }
-
-    .imagenstaffdos{
-        width: 95%;
-        height: auto;
-        border-radius: 100%;
+    .divdeprueba{
+        height: 100%;
     }
 
 }
 
-/* Media Query - Newsletter */
+/*Media Query - Newsletter*/
 
-@media only screen and (max-width:800px){
+/*@media only screen and (max-width:800px){
 
     .contenedorangela{
         display: flex;

@@ -6,25 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../mediaq.css">
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
-    </style>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../multimedia/favicon.png" type="image/x-icon">
     <title>Blog | Cápsula Cinéfila</title>
 </head>
 
 <body>
     <header>
-        <a href="../index.html"><img id="logoheader" src="../multimedia/logo.png" alt="Logo de Cápsula Cinéfila" title="Logo de Cápsula Cinéfila"></a>
-        <nav>
-            <ul class="ListaDeSecciones">
-                <li><a class="linavbar" href="../index.html">Lobby</a></li>
-                <li><a class="linavbar" href="reviews.html">Reviews</a></li>
-                <li><a class="linavbar" href="blog.html">Blog</a></li>
-                <li><a class="linavbar" href="newsletter.html">Newsletter</a></li>
-                <li><a class="linavbar" href="staff.html">Staff</a></li>
-            </ul>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand float-right col-1" href="../index.html"><img style="max-width:155%; margin-top: -7px;" class="imagen-logo-nav" src="../multimedia/logo.png" alt="Logo"></a>
+              <div class="navbar-collapse collapse" id="navbarColor01" style="">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Lobby <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./reviews.html">Reviews</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./newsletter.html">Newsletter</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./staff.html">Staff</a>
+                  </li>
+                </ul>
+              </div>
         </nav>
     </header>
 
@@ -34,55 +46,48 @@
 
     <section>
 
-        <div class="primeralinea">
-
-            <div class="divprimeralinea divprimeralinea1">
+        <div class="card-columns">
+            <div class="card divprimeralinea divprimeralinea1">
+              <div class="card-body">
                 <img class="conjuntoprimeralinea" src="../multimedia/blog-2da-edit-2.png" alt="Protagonista de relatos salvajes" title="Poster de relatos salvajes con títulos">
                 <h2 class="textos-blog" class="titulosprimeraysegundalinea">Películas latinoamericanas que debes ver</h2>
                 <p class="textos-blog" class="textosprimeraysegundalinea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsum, at maiores laborum iusto ullam ut. Voluptas ullam similique iure tenetur est veritatis! Hic similique vel ullam! Necessitatibus, quaerat eius.</p>
-                <a class="botondos buttom" href="">Leer nota</a>
+                <a class="btn btn-dark botondos buttom" href="">Leer nota</a>
+              </div>
             </div>
-
-            <div class="divprimeralinea divprimeralinea2">
+            <div class="card p-3 divprimeralinea divprimeralinea2">
                 <img class="conjuntoprimeralinea" src="../multimedia/blog-2da-edit-5.png" alt="El color en el cine" title="Poster de círculo cromático">
                 <h2 class="textos-blog" class="titulosprimeraysegundalinea">El color como protagonista</h2>
                 <p class="textos-blog" class="textosprimeraysegundalinea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsum, at maiores laborum iusto ullam ut. Voluptas ullam similique iure tenetur est veritatis! Hic similique vel ullam! Necessitatibus, quaerat eius.</p>
-                <a class="botondos buttom" href="">Leer nota</a>
+                <a class="btn btn-dark botondos buttom" href="">Leer nota</a>
             </div>
-
-            <div class="divprimeralinea divprimeralinea3">
+            <div class="card  divprimeralinea divprimeralinea3">
+              <div class="card-body">
                 <img class="conjuntoprimeralinea" src="../multimedia/blog-2da-edit-1.png" alt="Tarantino" title="Quentin Tarantino">
                 <h2 class="textos-blog" class="titulosprimeraysegundalinea">Epítome de Quentin Tarantino</h2>
                 <p class="textos-blog" class="textosprimeraysegundalinea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsum, at maiores laborum iusto ullam ut. Voluptas ullam similique iure tenetur est veritatis! Hic similique vel ullam! Necessitatibus, quaerat eius.</p>
-                <a class="botondos buttom" href="">Leer nota</a>
+                <a class="btn btn-dark botondos buttom" href="">Leer nota</a>
+              </div>
             </div>
-
-        </div>
-
-        <div class="segundalinea">
-
-            <div class="divsegundalinea divsegundalinea1">
+            <div class="card p-3 text-center divsegundalinea divsegundalinea1">
                 <img class="conjuntosegundalinea" src="../multimedia/blog-3.png" alt="Cine y moda" title="¿Influye el cine en la moda?">
                 <h2 class="textos-blog" class="titulosprimeraysegundalinea">¿Influye el cine en la moda?</h2>
                 <p class="textos-blog" class="textosprimeraysegundalinea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsum, at maiores laborum iusto ullam ut. Voluptas ullam similique iure tenetur est veritatis! Hic similique vel ullam! Necessitatibus, quaerat eius.</p>
-                <a class="botondos buttom" href="">Leer nota</a>
+                <a class="btn btn-dark botondos buttom" href="">Leer nota</a>
             </div>
-
-            <div class="divsegundalinea divsegundalinea2">
+            <div class="card p-3 text-center divsegundalinea divsegundalinea2">
                 <img class="conjuntosegundalinea" src="../multimedia/blog-2da-edit-4.png" alt="Los 5 peores fracasos de taquilla" title="Los 5 peores fracasos de taquilla">
                 <h2 class="textos-blog" class="titulosprimeraysegundalinea">Los peores fracasos de taquilla</h2>
                 <p class="textos-blog" class="textosprimeraysegundalinea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsum, at maiores laborum iusto ullam ut. Voluptas ullam similique iure tenetur est veritatis! Hic similique vel ullam! Necessitatibus, quaerat eius.</p>
-                <a class="botondos buttom" href="">Leer nota</a>
+                <a class="btn btn-dark botondos buttom" href="">Leer nota</a>
             </div>
-
-            <div class="divsegundalinea divsegundalinea3">
+            <div class="card p-3 text-center divsegundalinea divsegundalinea3">
                 <img class="conjuntosegundalinea" src="../multimedia/blog-2da-edit-3.png" alt="Dogma 95" title="¿Conoces el Dogma 95">
                 <h2 class="textos-blog" class="titulosprimeraysegundalinea">¿Conoces el Dogma 95?</h2>
                 <p class="textos-blog" class="textosprimeraysegundalinea">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsum, at maiores laborum iusto ullam ut. Voluptas ullam similique iure tenetur est veritatis! Hic similique vel ullam! Necessitatibus, quaerat eius.</p>
-                <a class="botondos buttom" href="">Leer nota</a>
+                <a class="btn btn-dark botondos buttom" href="">Leer nota</a>
             </div>
-
-        </div>
+          </div>
 
     </section>
 
@@ -128,6 +133,7 @@
         </div>
 
     </footer>
-
+    <script src="../js/jquery.slim.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
