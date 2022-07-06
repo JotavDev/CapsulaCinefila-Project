@@ -13,14 +13,15 @@
 </head>
 
 <body>
-
+    <!-- Header -->
     <header>
+
         <nav class="navbar navbar-dark bg-dark">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <a class="navbar-brand float-right col-1" href="index.html"><img style="max-width:155%; margin-top: -7px;" class="imagen-logo-nav" src="./multimedia/logo.png" alt="Logo"></a>
-              <div class="navbar-collapse collapse" id="navbarColor01" style="">
+              <div class="navbar-collapse collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
                     <a class="nav-link" href="index.html">Lobby <span class="sr-only">(current)</span></a>
@@ -40,78 +41,95 @@
                 </ul>
               </div>
         </nav>
+
     </header>
 
-    <main class="grid-container">
+    <main class="container-fluid">
 
-      <div class="grid-content">
-        <img src="./multimedia/banner-1.png" class="img-fluid" alt="Banner de bienvenida" title="Banner de bienvenida">
-      </div>
-
-        <!-- Reviews de la semana-->
-        <div data-aos="fade-up" class="card grid-content">
-            <img src="./multimedia/review-1.png" class="card-img-top reviewsimages imagenesanimadas" id="imageuno"  alt="poster sobre el review de la película Solo una mujer" title="Aynur Surucu, personaje principal">
-            <div class="card-body">
-            <h5 class="card-title">Sólo una mujer - Review</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            <a class="btn btn-dark boton buttom" href="./pages/reviews.html">Lee la nota acá</a>
-            </div>
-        </div>
-        
-        <div class="card grid-content" data-aos="fade-left"
-        data-aos-anchor="#example-anchor"
-        data-aos-offset="500"
-        data-aos-duration="500">
-            <img class="reviewsimages imagenesanimadas card-img-top" id="imagedos" src="./multimedia/review-2.png" alt="poster sobre el review de la película Ex-Machina" title="AVA">
-            <div class="card-body">
-            <h5 class="card-title">Ex-Machina - Review</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            <a class="boton buttom btn btn-dark" href="./pages/reviews.html">Lee la nota acá</a>
+        <div class="row">
+            <div class="col-md-12">
+                <img src="./multimedia/banner-1.png" class="img-fluid" alt="Banner de bienvenida" title="Banner de bienvenida">
             </div>
         </div>
 
-        <!-- Blog & Reviews destacados -->
-        <div class="card grid-content" data-aos="fade-right">
-            <img class="card-img-top altview" src="./multimedia/blog-1.png" alt="poster sobre la influencia de la cultura griega en el cine" title="El cine y la cultura griega">
-            <div class="card-body">
-                <h5 class="card-title">Grecia y cine</h5>
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia pariatur dolore reprehenderit iste voluptatibus nisi sequi dolorum optio aspernatur, illum assumenda itaque, a vel? Pariatur maxime hic voluptas dolore?</p>
-                <a class="btn btn-dark boton buttom" href="./pages/blog.html">Ver más</a>
+        <div class="row">
+
+            <div class="col-md-6 col-xs-12">
+                <div data-aos="fade-up" class="card">
+                    <img src="./multimedia/review-1.png" class="card-img-top img-fluid"  alt="poster sobre el review de la película Solo una mujer" title="Aynur Surucu, personaje principal">
+                    <div class="card-body">
+                        <h5 class="card-title">Sólo una mujer - Review</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Actualizado hace 5 mins</small></p>
+                        <a class="btn btn-dark boton" href="./pages/reviews.html">Lee la nota acá</a>
+                    </div>
+                </div>
             </div>
+
+            <div class="col-md-6 col-xs-12">
+                <div class="card" data-aos="fade-up">
+                    <img class="card-img-top img-fluid" src="./multimedia/review-2.png" alt="poster sobre el review de la película Ex-Machina" title="AVA">
+                    <div class="card-body">
+                        <h5 class="card-title">Ex-Machina - Review</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Actualizado hace 5 mins</small></p>
+                        <a class="boton btn btn-dark" href="./pages/reviews.html">Lee la nota acá</a>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="card grid-content" data-aos="fade-up">
-            <video class="altview card-img-top" src="./multimedia/blog-2.mp4" alt="GIF de un samurai con ojos saltones. Este GIF representa el review de la película: La casa de las dagas voladoras" title="Review de la casa de las dagas voladoras" muted autoplay loop></video>
-            <div class="card-body">
-                <h5 class="card-title">La casa de las dagas voladoras</h5>
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia pariatur dolore reprehenderit iste voluptatibus nisi sequi dolorum optio aspernatur, illum assumenda itaque, a vel? Pariatur maxime hic voluptas dolore?</p>
-                <a class="btn btn-dark boton buttom" href="./pages/reviews.html">Ver más</a>
+        <div class="row">
+            <div class="col-md-3 col-xs-12">
+                <div class="card" data-aos="fade-right">
+                    <img class="card-img-top altview" src="./multimedia/blog-1.png" alt="poster sobre la influencia de la cultura griega en el cine" title="El cine y la cultura griega">
+                    <div class="card-body">
+                        <h5 class="card-title">Grecia y cine</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia pariatur dolore reprehenderit iste voluptatibus nisi sequi dolorum optio aspernatur, illum assumenda itaque, a vel? Pariatur maxime hic voluptas dolore?</p>
+                        <a class="btn btn-dark boton" href="./pages/blog.html">Ver más</a>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <div class="card grid-content" data-aos="fade-down">
-            <img class="altview card-img-top" src="./multimedia/blog-3.png" alt="Imagen sobre una mujer caminando por las calles de París con un vestido ostentoso" title="Cine y moda">
-            <div class="card-body">
-                <h5 class="card-title">La moda y el cine</h5>
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia pariatur dolore reprehenderit iste voluptatibus nisi sequi dolorum optio aspernatur, illum assumenda itaque, a vel? Pariatur maxime hic voluptas dolore?</p>
-                <a class="btn btn-dark boton buttom" href="./pages/blog.html">Ver más</a>
+            <div class="col-md-3 col-xs-12">
+                <div class="card" data-aos="fade-up">
+                    <video class="altview card-img-top" src="./multimedia/blog-2.mp4" alt="GIF de un samurai con ojos saltones. Este GIF representa el review de la película: La casa de las dagas voladoras" title="Review de la casa de las dagas voladoras" muted autoplay loop></video>
+                    <div class="card-body">
+                        <h5 class="card-title">La casa de las dagas voladoras</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia pariatur dolore reprehenderit iste voluptatibus nisi sequi dolorum optio aspernatur, illum assumenda itaque, a vel? Pariatur maxime hic voluptas dolore?</p>
+                        <a class="btn btn-dark boton" href="./pages/reviews.html">Ver más</a>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <div class="card grid-content" data-aos="fade-left">
-            <img class="card-img-top altview" src="./multimedia/blog-4.png" alt="El director Quentin Tarantino en una foto" title="Quentin Tarantino" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Epítome de Quentin Tarantino</h5>
-                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia pariatur dolore reprehenderit iste voluptatibus nisi sequi dolorum optio aspernatur, illum assumenda itaque, a vel? Pariatur maxime hic voluptas dolore?</p>
-                <a class="btn btn-dark boton buttom" href="./pages/blog.html">Ver más</a>
+            <div class="col-md-3 col-xs-12">
+                <div class="card" data-aos="fade-down">
+                    <img class="altview card-img-top" src="./multimedia/blog-3.png" alt="Imagen sobre una mujer caminando por las calles de París con un vestido ostentoso" title="Cine y moda">
+                    <div class="card-body">
+                        <h5 class="card-title">La moda y el cine</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia pariatur dolore reprehenderit iste voluptatibus nisi sequi dolorum optio aspernatur, illum assumenda itaque, a vel? Pariatur maxime hic voluptas dolore?</p>
+                        <a class="btn btn-dark boton" href="./pages/blog.html">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-xs-12">
+                <div class="card" data-aos="fade-up">
+                    <img class="card-img-top altview" src="./multimedia/blog-4.png" alt="El director Quentin Tarantino en una foto" title="Quentin Tarantino" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Epítome de Quentin Tarantino</h5>
+                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quia pariatur dolore reprehenderit iste voluptatibus nisi sequi dolorum optio aspernatur, illum assumenda itaque, a vel? Pariatur maxime hic voluptas dolore?</p>
+                        <a class="btn btn-dark boton" href="./pages/blog.html">Ver más</a>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
 
     <!-- Footer -->
     <footer>
+
         <div class="divfooterizquierdo">
             <div>
                 <a href="index.html"><img id="logofooter" src="./multimedia/logo.png" alt="Logo de Cápsula Cinéfila" title="Logo de Cápsula Cinéfila"></a>
@@ -134,7 +152,7 @@
                     <h4 id="nuestrasucursal">Nuestra sucursal</h4>
                     <p id="telefono">+56 9 3611 8847</p>
                 </div>
-                    <p id="textosucursal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deleniti impedit atque. Possimus nostrum laborum fugiat! Tenetur, doloribus blanditiis. Obcaecati id officiis nam explicabo natus dignissimos saepe harum nulla quia.</p>
+                <p id="textosucursal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deleniti impedit atque. Possimus nostrum laborum fugiat! Tenetur, doloribus blanditiis. Obcaecati id officiis nam explicabo natus dignissimos saepe harum nulla quia.</p>
             </div>
         </div>
 
@@ -151,7 +169,9 @@
                 </ul>
             </div>
         </div>
+
     </footer>
+
     <script src="js/jquery.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
