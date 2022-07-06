@@ -171,11 +171,11 @@ footer{
 
 .ListaDeSeccionesDos a:hover{
     color: white;
+    text-decoration: none;
 }
 
 .sucursal{
-    text-align: auto;
-    margin: 0px 25px;
+
 }
 
 .lineahorizontal{
@@ -190,9 +190,6 @@ footer{
     margin: 0px;
 }
 
-/*#mapa{
-    margin: 10px 0px 0px 0px;
-}*/
 
 .divfooterizquierdo{
     width: 50%;
@@ -200,10 +197,6 @@ footer{
 
 .divfooterderecho{
     width: 50%;
-}
-
-iframe{
-    height: 100%;
 }
 
 #textosucursal{
@@ -421,11 +414,6 @@ iframe{
 .imagenstaffdos{
     width: 95%;
     margin: 5px;
-}
-
-.textostaff{
-    text-align: center;
-    margin: 0px;
 }
 
 p{
@@ -698,11 +686,6 @@ h6{
 
 .divdepruebastaff:hover .contenedortextosaparicion{
     opacity: 100%;
-}
-
-.textostaff{
-    margin-bottom: 25px;
-    width: 80%;
 }
 
 .contenedortextosstaff{
