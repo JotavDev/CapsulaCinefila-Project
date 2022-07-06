@@ -6,74 +6,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../mediaq.css">
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
-    </style>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../multimedia/favicon.png" type="image/x-icon">
     <title>Staff | Cápsula Cinéfila</title>
 </head>
+
 <body>
     <header>
-        <a href="../index.html"><img id="logoheader" src="../multimedia/logo.png" alt="Logo de Cápsula Cinéfila" title="Logo de Cápsula Cinéfila"></a>
-        <nav>
-            <ul class="ListaDeSecciones">
-                <li><a class="linavbar" href="../index.html">Lobby</a></li>
-                <li><a class="linavbar" href="reviews.html">Reviews</a></li>
-                <li><a class="linavbar" href="blog.html">Blog</a></li>
-                <li><a class="linavbar" href="newsletter.html">Newsletter</a></li>
-                <li><a class="linavbar" href="staff.html">Staff</a></li>
-            </ul>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand float-right col-1" href="../index.html"><img style="max-width:155%; margin-top: -7px;" class="imagen-logo-nav" src="../multimedia/logo.png" alt="Logo"></a>
+            <div class="navbar-collapse collapse" id="navbarColor01" style="">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">Lobby <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./reviews.html">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./newsletter.html">Newsletter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./staff.html">Staff</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-
+    
     <section>
-
-        <h2 id="titulo-staff" class="titulostaff">Conocé al staff que hace posible Cápsula Cinéfila</h2>
-
-        <div class="staffuno">
-            <div class="divstaffuno">
-                <img class="imagenstaffuno" src="../multimedia/staff-angela.png" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
-                <h4 class="textostaff">Ángela Larrazábal</h4>
-                <h5 class="textostaff">Columnista y crítico de cine</h5>
-                <p class="textostaff">Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro.</p>
-            </div>
-
-            <div class="divstaffuno">
-                <img class="imagenstaffuno" src="../multimedia/staff-angela.png" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
-                <h4 class="textostaff">Ángela Larrazábal</h4>
-                <h5 class="textostaff">Columnista y crítico de cine</h5>
-                <p class="textostaff">Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro.</p>
-            </div>
-
-            <div class="divstaffuno">
-                <img class="imagenstaffuno" src="../multimedia/staff-angela.png" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
-                <h4 class="textostaff">Ángela Larrazábal</h4>
-                <h5 class="textostaff">Columnista y crítico de cine</h5>
-                <p class="textostaff">Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro.</p>
-            </div>
+        
+        <div class="contenedortextosstaff">
+            <h2 id="titulo-staff" class="titulostaff">Conocé al staff que hace posible Cápsula Cinéfila</h2>
+            <p class="textostaff">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste a dolores quidem magnam deserunt voluptas assumenda officiis. Facere id et reprehenderit minima fugit soluta facilis, quod, numquam, corrupti repudiandae odit!</p>
         </div>
 
-        <div class="staffdos">
-            <div class="divstaffdos">
-                <img class="imagenstaffdos" src="../multimedia/staff-angela.png" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
-                <h4 class="textostaff">Ángela Larrazábal</h4>
-                <h5 class="textostaff">Columnista y crítico de cine</h5>
-                <p class="textostaff">Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro.</p>
+        <div class="staff-flex">
+            <div class="divdepruebastaff">
+                <div class="divdeprueba2">
+                    <img class="imagenstaffuno" id="angela-prueba" src="../multimedia/angela.jpg" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
+                </div>
+                <div class="contenedortextosaparicion">
+                    <h4 class="textostaff">Ángela Larrazábal</h4>
+                    <h5 class="textostaff">Columnista y crítico de cine</h5>
+                    <p class="textostaff">Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro.</p>
+                </div>
             </div>
 
-            <div class="divstaffdos">
-                <img class="imagenstaffdos" src="../multimedia/staff-angela.png" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
-                <h4 class="textostaff">Ángela Larrazábal</h4>
-                <h5 class="textostaff">Columnista y crítico de cine</h5>
-                <p class="textostaff">Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro.</p>
+            <div class="divdepruebastaff">
+                <div class="divstaffuno divdeprueba2">
+                    <img class="imagenstaffuno" id="angela-prueba" src="../multimedia/francisco.jpg" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
+                </div>
+                <div class="contenedortextosaparicion">
+                    <h4 class="textostaff">Francisco Verde</h4>
+                    <h5 class="textostaff">Artista plástico y columnista</h5>
+                    <p class="textostaff">Artista con más de una década de experiencia y varias exposiciones internacionales, Francisco desempeña un rol fundamental en Cápsula Cinéfila.</p>
+                </div>
             </div>
 
-            <div class="divstaffdos">
-                <img class="imagenstaffdos" src="../multimedia/staff-angela.png" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
-                <h4 class="textostaff">Ángela Larrazábal</h4>
-                <h5 class="textostaff">Columnista y crítico de cine</h5>
-                <p class="textostaff">Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro.</p>
+            <div class="divdepruebastaff">
+                <div class="divstaffuno divdeprueba2">
+                    <img class="imagenstaffuno" id="angela-prueba" src="../multimedia/angela.jpg" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
+                </div>
+                <div class="contenedortextosaparicion">
+                    <h4 class="textostaff">Ángela Larrazábal</h4>
+                    <h5 class="textostaff">Columnista y crítico de cine</h5>
+                    <p class="textostaff">Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="staff-flex">
+            <div class="divdepruebastaff">
+                <div class="divstaffuno divdeprueba2">
+                    <img class="imagenstaffuno" id="angela-prueba" src="../multimedia/francisco.jpg" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
+                </div>
+                <div class="contenedortextosaparicion">
+                    <h4 class="textostaff">Francisco Verde</h4>
+                    <h5 class="textostaff">Artista plástico y columnista</h5>
+                    <p class="textostaff">Artista con más de una década de experiencia y varias exposiciones internacionales, Francisco desempeña un rol fundamental en Cápsula Cinéfila.</p>
+                </div>
+            </div>
+
+            <div class="divdepruebastaff">
+                <div class="divstaffuno divdeprueba2">
+                    <img class="imagenstaffuno" id="angela-prueba" src="../multimedia/angela.jpg" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
+                </div>
+                <div class="contenedortextosaparicion">
+                    <h4 class="textostaff">Ángela Larrazábal</h4>
+                    <h5 class="textostaff">Columnista y crítico de cine</h5>
+                    <p class="textostaff">Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro.</p>
+                </div>
+            </div>
+
+            <div class="divdepruebastaff">
+                <div class="divstaffuno divdeprueba2">
+                    <img class="imagenstaffuno" id="angela-prueba" src="../multimedia/francisco.jpg" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
+                </div>
+                <div class="contenedortextosaparicion">
+                    <h4 class="textostaff">Francisco Verde</h4>
+                    <h5 class="textostaff">Artista plástico y columnista</h5>
+                    <p class="textostaff">Artista con más de una década de experiencia y varias exposiciones internacionales, Francisco desempeña un rol fundamental en Cápsula Cinéfila.</p>
+                </div>
             </div>
         </div>
 
@@ -121,6 +162,7 @@
         </div>
 
     </footer>
-
+    <script src="../js/jquery.slim.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -6,24 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../mediaq.css">
-    
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
-    </style>
-    <title>Newsletter | Cápsula Cinéfila</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../multimedia/favicon.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <a href="../index.html"><img id="logoheader" src="../multimedia/logo.png" alt="Logo de Cápsula Cinéfila" title="Logo de Cápsula Cinéfila"></a>
-        <nav>
-            <ul class="ListaDeSecciones">
-                <li><a class="linavbar" href="../index.html">Lobby</a></li>
-                <li><a class="linavbar" href="reviews.html">Reviews</a></li>
-                <li><a class="linavbar" href="blog.html">Blog</a></li>
-                <li><a class="linavbar" href="newsletter.html">Newsletter</a></li>
-                <li><a class="linavbar" href="staff.html">Staff</a></li>
-            </ul>
+        <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand float-right col-1" href="../index.html"><img style="max-width:155%; margin-top: -7px;" class="imagen-logo-nav" src="../multimedia/logo.png" alt="Logo"></a>
+              <div class="navbar-collapse collapse" id="navbarColor01" style="">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../index.html">Lobby <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./reviews.html">Reviews</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./newsletter.html">Newsletter</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./staff.html">Staff</a>
+                  </li>
+                </ul>
+              </div>
         </nav>
     </header>
 
@@ -36,14 +47,44 @@
         <h1 class="titulocarta">Carta de nuestra editora</h1>
         <p class="textocarta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptas assumenda soluta totam molestiae ratione, repellat possimus tempore ullam quo est eius voluptates, officiis sequi aspernatur quis sit enim obcaecati! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptas enim voluptates iste quod perspiciatis commodi vel maxime officia excepturi iure et amet, repellat id odit architecto eaque itaque quis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident distinctio perferendis voluptates vitae, tenetur a voluptas optio non dicta corrupti deserunt dolores, quam praesentium earum? Nemo officiis explicabo possimus laborum.</p>
 
-        <div class="contenedornewsletter">
+        <div class="contenedornewsletter container">
+
+
             <div class="contenedorimagennews">
                 <img id="imagenformulario" src="../multimedia/Newsletter.png" alt="Flyer informativo en donde se incentiva al usuario a suscribirse al newsletter del website" title="¡Suscríbete a nuestro Newsletter!">
             </div>
 
-             <div class="contenedorform">
-                <h2>Aquí irá un formulario...</h2>
+            <div class="contenedorform">
+                <form>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Nombres</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Escribe tus nombres acá...">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="... y tus apellidos aquí.">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Correo electrónico</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="ejemplo@gmail.com">
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control" placeholder="Ciudad" aria-label="City">
+                        </div>
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Región" aria-label="State">
+                        </div>
+                        <div class="col-sm">
+                            <input type="text" class="form-control" placeholder="Código postal" aria-label="Zip">
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-dark" id="boton-form">Enviar</button>
+                        </div>
+                    </div>
+                </form>
             </div>
+
         </div>
 
     </section>
@@ -90,6 +131,7 @@
         </div>
 
     </footer>
-
+    <script src="../js/jquery.slim.min.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
