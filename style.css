@@ -5,64 +5,15 @@ body{
     margin: 0px;
 }
 
-header{
-    background-color: black;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.linavbar{
-    text-decoration: none;
-    color: gold;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.8em;
-    margin: 15px 15px;
-    list-style: none;
-    display: inline-block;
-}
-
-.linavbar:hover{
-    color: white;
-}
-
-nav{
-    width: 100%;
-}
-
 #image{
     width: 100%;
     margin: 0px;
-}
-
-.tarjetasdeinicio{
-    display: flex;
-    margin: 0px 10px 5px 10px;
-    align-items: auto;
 }
 
 .altview{
     width: 100%;
     height: auto;
     margin: 0px 0px;
-}
-
-.textos{
-    text-align: center;
-    margin: 5px;
-    font-family: 'Oswald', sans-serif;
-    text-justify: auto;
-    bottom: 0%;
-}
-
-#textouno{
-    font-family: 'Fresca', sans-serif;
-}
-
-#textodos{
-    font-family: 'Fresca', sans-serif;
 }
 
 .boton{
@@ -73,38 +24,6 @@ nav{
 
 .boton:hover{
     transform: scale(1.1)
-}
-
-.grupoblog{
-    margin: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.textosdos{
-    text-align: center;
-    margin: 5px;
-    font-family: 'Oswald', sans-serif;
-}
-
-.botondos{
-    text-align: center;
-    text-decoration: none;
-    margin: 10px 0px 15px 0px;
-    font-size: 15px;
-    font-family: 'Oswald', sans-serif;
-    background-color: black;
-    color: gold;
-    border-radius: 10px;
-    width: 35%;
-    height: 20%;
-    transition-property: all;
-    transition-duration: 1s;
-}
-
-.botondos:hover{
-    transform: scale(1.1);    
 }
 
 footer{
@@ -174,10 +93,6 @@ footer{
     text-decoration: none;
 }
 
-.sucursal{
-
-}
-
 .lineahorizontal{
     display: flex;
     justify-content: space-between;
@@ -204,97 +119,17 @@ footer{
     font-family: 'Fresca', sans-serif;
 }
 
-.primeralinea{
-    width: 100%;
-    display: flex;
-    margin: 0px 0px 15px 0px;
-}
-
-.divprimeralinea{
-    width: 33%;
-}
-
-.conjuntoprimeralinea{
-    width: 95%;
-    margin: 10px;
-}
-
-.segundalinea{
-    width: 100%;
-    display: flex;
-    margin: 0px 0px 15px 0px;
-}
-
-.divsegundalinea{
-    width: 33%;
-}
-
-.conjuntosegundalinea{
-    width: 95%;
-    margin: 10px;
-}
-
-#banner-2{
-    width: 100%;
-
-}
-
-.titulosprimeraysegundalinea{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-}
-
-.textosprimeraysegundalinea{
-    font-family: 'Fresca', sans-serif;
-    text-align: center;
-}
+/* Aquí comienza la sección REVIEWS */
 
 #bannertres{
     width: 100%;
     height: 100%;
 }
 
-.reviewizquierda{
-    width: 75%;
-    margin: 10px 15px;
-}
-
-.reviewcarrusel{
-    display: flex;
-    width: 100%;
-    height: 33%;
-    margin: 0px 0px 15px 0px;
-}
-
-.reviewcarruselhijos{
-    width: 25%;
-}
-
-.reviewcompleto{
-    display: flex;
-}
-
-.reviewderecha{
-    width: 25%;
-    background-color: gold;
-    border: 2px solid black;
-    margin: 10px 15px;
-}
-
 .imagenesdereviews{
     width: 100%;
     height:50%;
     margin: 0%;
-}
-
-.killbill{
-    display: flex;
-}
-
-.matrix{
-    display: flex;
-    flex-direction: row-reverse;
-    border-radius: 15px;
 }
 
 .imagenesprincipales{
@@ -307,11 +142,6 @@ footer{
     width: 100%;
     height: 100%;
     margin: 0%;
-}
-
-.contenedortexto{
-    width: 66%;
-    margin: 15px;
 }
 
 #matrix{
@@ -336,6 +166,10 @@ footer{
 .botoncuatro:hover{
     background-color: rgb(44, 44, 44);
 }
+
+/* Aquí termina la sección REVIEWS */
+
+/* Aquí comienza la sección NEWSLETTER */
 
 .contenedorangela{
     background-color: gold;
@@ -383,92 +217,15 @@ footer{
     width: 100%;
 }
 
-.staffuno{
-    display: flex;
-    width: 100%;
-}
+/* Aquí termina la sección NEWSLETTER */
 
-.divstaffuno{
-    width: 33%;
-    height: 100%;
-}
-
-.imagenstaffuno{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    background-color: black;
-}
-
-.staffdos{
-    display: flex;
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.divstaffdos{
-    width: 33%;
-}
-
-.imagenstaffdos{
-    width: 95%;
-    margin: 5px;
-}
-
-p{
-    font-family: 'Fresca', sans-serif;
-}
-
-h1{
-    font-family: 'Oswald', sans-serif;
-}
-
-h2{
-    font-family: 'Oswald', sans-serif;
-}
-
-h3{
-    font-family: 'Oswald', sans-serif;
-}
-
-h4{
-    font-family: 'Oswald', sans-serif;
-}
-
-h5{
-    font-family: 'Oswald', sans-serif;
-}
-
-h6{
-    font-family: 'Oswald', sans-serif;
-}
-
-.titulostaff{
-    text-align: center;
-}
-
-/* De aquí en adelante es el html donde se aplica grids, flex y box modeling */
-
-.divdeprueba{
-    width: 100%;
-    height: 500px;
-}
-
-.tituloprueba{
-    margin: 20px;
-}
-
-.imageneskillbill{
-    width: 75%;
-    margin: 10px 0px 5px 20px;
-}
-
-.textoskillbill{
-    width: 75%;
-    margin: 10px 0px 5px 20px;
-    font-size: 35px;
-}
+p{font-family: 'Fresca', sans-serif;}
+h1{font-family: 'Oswald', sans-serif;}
+h2{font-family: 'Oswald', sans-serif;}
+h3{font-family: 'Oswald', sans-serif;}
+h4{font-family: 'Oswald', sans-serif;}
+h5{font-family: 'Oswald', sans-serif;}
+h6{font-family: 'Oswald', sans-serif;}
 
 /* Grilla Reviews */
 
@@ -617,32 +374,6 @@ h6{
     transform: translateX(-20px)
 }
 
-.grid-content-hover:hover{
-    animation: revelacion 0.5s;
-}
-
-@keyframes revelacion{
-    0%{
-        height: 0%;
-    }
-
-    25%{
-        height: 25%;
-    }
-
-    50%{
-        height: 50%;
-    }
-
-    75%{
-        height: 75%;
-    }
-
-    100%{
-        height: 100%;
-    }
-}
-
 .form{
     display: flex;
     flex-direction: row;
@@ -749,3 +480,50 @@ h6{
 .col-md-12{
     padding: 0px !important;
 }
+
+/* Aquí comienzan los estilos de la página BLOG */
+
+#banner-2{
+    width: 100%;
+}
+
+.titulosprimeraysegundalinea{
+    text-align: center;
+}
+
+.textosprimeraysegundalinea{
+    text-align: center;
+}
+    
+.primeralinea{
+    width: 100%;
+    display: flex;
+    margin: 0px 0px 15px 0px;
+}
+    
+.divprimeralinea{
+    width: 33%;
+}
+    
+.conjuntoprimeralinea{
+    width: 95%;
+    margin: 10px;
+}
+    
+.segundalinea{
+    width: 100%;
+    display: flex;
+    margin: 0px 0px 15px 0px;
+}
+    
+.divsegundalinea{
+    width: 33%;
+}
+    
+.conjuntosegundalinea{
+    width: 95%;
+    margin: 10px;
+}
+
+/* Aquí terminan los estilos de la página BLOG */
+
