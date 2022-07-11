@@ -5,9 +5,9 @@ body{
     margin: 0px;
 }
 
-#image{
+.container video{
     width: 100%;
-    margin: 0px;
+    height: auto;
 }
 
 .altview{
@@ -119,6 +119,10 @@ footer{
     font-family: 'Fresca', sans-serif;
 }
 
+iframe{
+    height: 100%;
+}
+
 /* Aquí comienza la sección REVIEWS */
 
 #bannertres{
@@ -165,6 +169,10 @@ footer{
 
 .botoncuatro:hover{
     background-color: rgb(44, 44, 44);
+}
+
+.padding-cards{
+    padding: 0px 20px;
 }
 
 /* Aquí termina la sección REVIEWS */
