@@ -2,18 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fresca&display=swap');
 
 body{
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .container video{
     width: 100%;
     height: auto;
-}
-
-.altview{
-    width: 100%;
-    height: auto;
-    margin: 0px 0px;
 }
 
 .boton{
