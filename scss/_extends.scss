@@ -1,0 +1,80 @@
+@import "mixins.scss";
+
+%cards{
+    .conjuntoprimeralinea{
+        width: 95%;
+        margin:10px;
+    }
+
+    .conjuntosegundalinea{
+        width: 95%;
+        margin: 10px;
+    }
+
+    .boton{
+        font-family: 'Oswald', sans-serif;
+        transition-property: all;
+        transition-duration: 0.5s;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+%hover{
+    transition-property: all;
+    transition-duration: 1s;
+
+        &:hover{
+            transform: translateX(20px)
+        }
+}
+
+%hover-2{
+    transition-property: all;
+    transition-duration: 1s;
+
+        &:hover{
+            transform: translateX(-20px)
+        }
+}
+
+#banner-2{
+    @include anchos(100%);
+}
+
+.card-columns{
+
+    margin: 25px 10px 15px 10px;
+
+    .divprimeralinea1{
+        @extend %hover;
+        @extend %cards;
+    }
+
+    .divprimeralinea2{
+        @extend %hover;
+        @extend %cards;
+    }
+
+    .divprimeralinea3{
+        @extend %hover;
+        @extend %cards;
+    }
+
+    .divsegundalinea1{
+        @extend %hover;
+        @extend %cards;
+    }
+
+    .divsegundalinea2{
+        @extend %hover-2;
+        @extend %cards;
+    }
+
+    .divsegundalinea3{
+        @extend %hover-2;
+        @extend %cards;
+    }
+}

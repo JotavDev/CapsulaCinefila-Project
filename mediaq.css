@@ -254,7 +254,7 @@
 
 /*Media Query - Newsletter*/
 
-/*@media only screen and (max-width:800px){
+@media only screen and (max-width:800px){
 
     .contenedorangela{
         display: flex;
@@ -265,10 +265,17 @@
 
     .contenedornewsletter{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
 
+    .contenedorimagennews{
+        width: 100%;
+    }
+
+    .contenedorform{
+        width: 100%;
+    }
 }

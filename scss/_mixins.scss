@@ -1,0 +1,7 @@
+@mixin anchos($ancho){
+    width: $ancho;
+}
+
+@mixin coloresdefondo($color){
+    background-color: $color;
+}
