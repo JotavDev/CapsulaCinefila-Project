@@ -1,8 +1,6 @@
-/* Este CSS lo estoy ocupando para el desafío complementario de Media Query pero no será considerado en el proyecto */
-
 /*Media Query - Index*/
 
-@media only screen and (max-width:800px){
+@media only screen and (max-width:425px){
     body{
         background-color: aliceblue;
     }
@@ -12,43 +10,24 @@
         height: auto;
     }
 
-    .grid-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .grid-content:nth-child(2){
-        width: 90%;
-        height: 40%;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .grid-content:nth-child(3){
-        width: 90%;
-        height: 40%;
-    }
-
-    .grid-content:nth-child(4){
-        width: 70%;
+    header{
+        width: 100%;
         height: auto;
     }
 
-    .grid-content:nth-child(5){
-        width: 70%;
-        height: auto;
+    main{
+        margin-top: 10px;
     }
 
-    .grid-content:nth-child(6){
-        width: 70%;
-        height: auto;
+    .anchornavbar ul{
+        margin-top: 4px;
     }
 
-    .grid-content:nth-child(7){
-        width: 70%;
-        height: auto;
+    .anchornavbar ul li a{
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        color: gold;
+        font-size: 13px;
     }
 
     .altview{
@@ -120,6 +99,34 @@
         height: auto;
     }
 
+}
+
+@media only screen and (min-width:426px) and (max-width:768px){
+
+    header{
+        width: 100%;
+        height: auto;
+    }
+
+    .video-container{
+        width: 100%;
+    }
+
+    .video-container video{
+        width: 100%;
+    }
+
+    .anchornavbar ul{
+        width: 100%;
+    }
+
+    .anchornavbar ul li a{
+        font-size: 18px;
+    }
+
+    main{
+        margin-top: 5px;
+    }
 }
 
 /*Media Query - Reviews*/

@@ -15,10 +15,13 @@
     <!-- Tipografías -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fresca&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <!-- SEO -->
     <meta name="description" content="¿No sabes si ver una película y necesitas recomendaciones? Bienvenido a Cápsula Cinéfila, el website que te ofrece los mejores reviews y artículos de toda la web. Has clic, toma asiento, ponte cómodo y disfruta de los reviews y artículos de cine que tenemos para tí.">
@@ -29,9 +32,23 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
 
+    <header>
+        <nav class="anchornavbar">
+            <ul>
+                <li><a href="index.html">Lobby</a></li>
+                <li><a href="./pages/reviews.html">Reviews</a></li>
+                <li><a href="./pages/blog.html">Blog</a></li>
+                <li><a href="./pages/newsletter.html">Newsletter</a></li>
+                <li><a href="./pages/staff.html">Staff</a></li>
+            </ul>
+        </nav>
+        <div class="video-container col-md-12 container">
+            <video src="./multimedia/video-banner.mp4" autoplay muted class="video-fluid" alt="Vídeo de bienvenida" title="Vídeo de bienvenida. Cinéfilo de espaldas en habitación decorada."></video>
+        </div>
+    </header>
+
+    <!--<header>
         <nav class="navbar navbar-dark bg-dark">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,21 +74,13 @@
                 </ul>
             </div>
         </nav>
-
-    </header>
+    </header>-->
 
     <main class="container-fluid">
-        <section>
-            <div class="row">
-                <div class="col-md-12 container">
-                    <video src="./multimedia/video-banner.mp4" autoplay muted class="video-fluid" alt="Vídeo de bienvenida" title="Vídeo de bienvenida. Cinéfilo de espaldas en habitación decorada."></video>
-                </div>
-            </div>
-        </section>
         
         <section>
             <div class="row">
-                <div class="col-md-6 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-xs-12">
                     <div data-aos="fade-right" class="card">
                         <img src="./multimedia/sound-of-metal.jpg" class="card-img-top img-fluid"  alt="Imagen de la película Sound of metal" title="Imagen del protagonista de Sound of metal tocando la batería">
                         <div class="card-body">
@@ -83,7 +92,7 @@
                     </div>
                 </div>
             
-                <div class="col-md-6 col-xs-12">
+                <div class="col-lg-6 col-md-12 col-xs-12">
                     <div class="card" data-aos="flip-right">
                         <img class="card-img-top img-fluid" src="./multimedia/thor.png" alt="Review Thor: Love and thunder. Una colaboración con Pseudo Cinéfilos" title="Poster de Thor: Love and thunder">
                         <div class="card-body">
@@ -101,7 +110,7 @@
         <section>
             <div class="row">
 
-                <div class="col-md-3 col-xs-12">
+                <div class="col-lg-3 col-md-6 col-xs-12">
                     <div class="card" data-aos="fade-up">
                         <img class="card-img-top" src="./multimedia/blog-2da-edit-2.png" alt="8 Películas latinoamericanas que no te puedes perder" title="Poster sobre el artículo">
                         <div class="card-body">
@@ -112,7 +121,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xs-12">
+                <div class="col-lg-3 col-md-6 col-xs-12">
                     <div class="card" data-aos="fade-down">
                         <img class="card-img-top" src="./multimedia/blog-2da-edit-5.png" alt="Título del artículo con una imagen del círculo cromático" title="Título del artículo con una imagen del círculo cromático">
                         <div class="card-body">
@@ -123,7 +132,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xs-12">
+                <div class="col-lg-3 col-md-6 col-xs-12">
                     <div class="card" data-aos="fade-up">
                         <img class="card-img-top" src="./multimedia/blog-2da-edit-1.png" alt="El director Quentin Tarantino en una foto" title="Quentin Tarantino">
                         <div class="card-body">
@@ -134,11 +143,11 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-xs-12">
+                <div class="col-lg-3 col-md-6 col-xs-12">
                     <div class="card" data-aos="fade-down">
                         <img class="card-img-top" src="./multimedia/blog-3.png" alt="Póster con el título del artículo" title="Emma Stone en su papel de Cruella">
                         <div class="card-body">
-                            <h5 class="card-title">Cinde y moda</h5>
+                            <h5 class="card-title">Cine y moda</h5>
                             <p class="card-text">Si bien la moda ha existido desde el origen de los tiempos, el cine ha representado una considerable influencia en ella a lo largo de los años. Si recuerdas 'El diablo viste a la moda', a la inolvidable Marilyn y otras tantas, cliquea el botón y lee nuestro artículo.</p>
                             <a class="btn btn-dark boton" href="./pages/cineymoda.html">Ver más</a>
                         </div>
@@ -148,7 +157,6 @@
         </section>
     </main>
 
-    <!-- Footer -->
     <footer>
 
         <div class="divfooterizquierdo">

@@ -4,9 +4,48 @@ body{
     background-image: url(./multimedia/marmol-background.jpg);
 }
 
-.container video{
+.video-container{
     width: 100%;
     height: auto;
+    position: relative;
+}
+
+.video-container video{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+.anchornavbar{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.anchornavbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-left: 0%;
+}
+
+.anchornavbar ul li a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: gold;
+    font-size: 25px;
+}
+
+.anchornavbar ul li a:hover{
+    color: white;
+}
+
+main{
+    margin-top: 25px;
 }
 
 .subtitulo-encabezado{
@@ -27,6 +66,7 @@ footer{
     color:white;
     background-color: black;
     display: flex !important;
+    width: 100%;
 }
 
 .ListaDeSecciones{
@@ -349,7 +389,18 @@ h6{font-family: 'Oswald', sans-serif;}
 }
 
 .row{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+div .col-lg-6{
+    padding: 10px 10px !important;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.col-lg-6:hover{
+    transform: translateY(-10px) !important;
 }
 
 .col-md-6{
@@ -368,10 +419,6 @@ h6{font-family: 'Oswald', sans-serif;}
 
 .col-md-3:hover{
     transform: translateY(-10px) !important;
-}
-
-.card{
-    padding: 0px !important;
 }
 
 .col-md-12{
