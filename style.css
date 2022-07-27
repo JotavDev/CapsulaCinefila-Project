@@ -543,3 +543,12 @@ div .col-lg-6{
     height: auto;
     margin-bottom: 50px;
 }
+
+#lobby{
+    color: white;
+}
+
+.imagen-logo-nav{
+    width: 131px;
+    height: auto;
+}

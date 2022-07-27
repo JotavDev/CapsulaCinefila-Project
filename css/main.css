@@ -74,17 +74,11 @@ footer {
   .card-columns .divprimeralinea1 .boton:hover, .card-columns .divprimeralinea2 .boton:hover, .card-columns .divprimeralinea3 .boton:hover, .card-columns .divsegundalinea1 .boton:hover, .card-columns .divsegundalinea2 .boton:hover, .card-columns .divsegundalinea3 .boton:hover {
     transform: scale(1.1); }
 
-.card-columns .divprimeralinea1, .card-columns .divprimeralinea2, .card-columns .divprimeralinea3, .card-columns .divsegundalinea1 {
+.card-columns .divprimeralinea1, .card-columns .divprimeralinea2, .card-columns .divprimeralinea3, .card-columns .divsegundalinea1, .card-columns .divsegundalinea2, .card-columns .divsegundalinea3 {
   transition-property: all;
   transition-duration: 1s; }
-  .card-columns .divprimeralinea1:hover, .card-columns .divprimeralinea2:hover, .card-columns .divprimeralinea3:hover, .card-columns .divsegundalinea1:hover {
-    transform: translateX(20px); }
-
-.card-columns .divsegundalinea2, .card-columns .divsegundalinea3 {
-  transition-property: all;
-  transition-duration: 1s; }
-  .card-columns .divsegundalinea2:hover, .card-columns .divsegundalinea3:hover {
-    transform: translateX(-20px); }
+  .card-columns .divprimeralinea1:hover, .card-columns .divprimeralinea2:hover, .card-columns .divprimeralinea3:hover, .card-columns .divsegundalinea1:hover, .card-columns .divsegundalinea2:hover, .card-columns .divsegundalinea3:hover {
+    transform: translateY(-10px); }
 
 #banner-2 {
   width: 100%; }
@@ -199,3 +193,8 @@ section .staff-flex {
         text-align: center;
         margin-bottom: 25px;
         width: 80%; }
+
+        .imagen-logo-nav{
+          width: 131px;
+          height: auto;
+      }
