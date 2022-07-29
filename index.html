@@ -32,14 +32,14 @@
 </head>
 
 <body>
-
+    
     <header>
         <nav class="anchornavbar">
             <ul>
                 <li><a href="index.html"><strong id="lobby">Lobby</strong></a></li>
                 <li><a href="./pages/reviews.html">Reviews</a></li>
                 <li><a href="./pages/blog.html">Blog</a></li>
-                <li><a href="./pages/newsletter.html">Newsletter</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
                 <li><a href="./pages/staff.html">Staff</a></li>
             </ul>
         </nav>
@@ -127,7 +127,39 @@
                 </div>
             </div>
         </section>
+
     </main>
+
+    <section id="newsletter">
+        <div class="contenedor-newsletter">
+
+            <div data-aos="fade-right" class="contenedor-imagen-newsletter">
+                <img id="imagenformulario" src="./multimedia/Newsletter.png" alt="Flyer informativo en donde se incentiva al usuario a suscribirse al newsletter del website" title="¡Suscríbete a nuestro Newsletter!">
+            </div>
+            <div class="contenedor-formulario-newsletter">
+                <div class="contenedor-subtitulos-newsletter">
+                    <h2 class="titulo-newsletter">Suscríbete a nuestro Newsletter</h2>
+                    <p>y no te pierdas los artículos que semana a semana escribimos para ti</p>
+                </div>
+
+                <form action="" method="post">
+                    <label for="name">Nombre
+                        <input  autocomplete="off" class="wow animate__fadeInRight" data-wow-duration="1s" type="text" id="name" placeholder="Nombre" required>
+                    </label>                
+                        <label for="email">E-mail
+                        <input  autocomplete="off" class="wow animate__fadeInRight" data-wow-duration="1.5s" type="email" id="email" placeholder="Email" required>
+                    </label>               
+                        <label for="asunto">Película Favorita
+                        <input  autocomplete="off" class="wow animate__fadeInRight" data-wow-duration="2s" type="text" id="asunto" placeholder="Película favorita" required>
+                    </label>                
+                        <label for="cuentanos">¿Qués es lo que más te gusta del cine?
+                        <textarea class="wow animate__fadeInRight" data-wow-duration="2.5s" id="cuentanos" placeholder="¿Qués es lo que más te gusta del cine?" rows="5" required></textarea>
+                    </label>                
+                    <button class="wow animate__fadeInRight" data-wow-duration="3s" id="submite" type="submit" name="enviar" >Enviar</button>   
+                </form>
+            </div>
+        </div>
+    </section>
 
     <footer>
 
@@ -142,7 +174,7 @@
                         <li class="linavbardos"><a class="anchorli" href="index.html">Lobby</a></li>
                         <li class="linavbardos"><a class="anchorli" href="./pages/blog.html">Blog</a></li>
                         <li class="linavbardos"><a class="anchorli" href="./pages/reviews.html">Reviews</a></li>
-                        <li class="linavbardos"><a class="anchorli" href="./pages/newsletter.html">Newsletter</a></li>
+                        <li class="linavbardos"><a class="anchorli" href="#newsletter">Newsletter</a></li>
                         <li class="linavbardos"><a class="anchorli" href="./pages/staff.html">Staff</a></li>
                     </ul>
                 </nav>
