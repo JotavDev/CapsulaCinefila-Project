@@ -176,6 +176,64 @@
     main{
         margin-top: 5px;
     }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .divfooterizquierdo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+
+    .lineahorizontal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nuestrasucursal{
+        font-size: 16px;
+    }
+
+    #telefono{
+        font-size: 10px;
+    }
+
+    #textosucursal{
+        font-size: 10px;
+    }
+
+    .sucursal{
+        margin: 0px 0px 0px 16px;
+    }
+
+    .mapaeiconos{
+        width: 100%;
+    }
+
+    .divfooterderecho{
+        width: 100%;
+        height: auto;
+    }
+
+    .iconsgroup img{
+        width: 20%;
+        height: auto;
+    }
+
+    .ListaDeSeccionesDos{
+        width: 100%;
+        padding: 0%;
+        margin: 0px 0px 0px 16px;
+    }
 }
 
 /*Media Query - Reviews*/
@@ -316,4 +374,25 @@
         list-style: none;
     }
 
+}
+
+/* Artículos */
+
+@media only screen and (max-width:425px){
+
+    .titulo-articulo{
+        font-size: 26px;
+    }
+
+    .banner-horizontal{
+        margin: 25px 0px;
+    }
+
+    .parrafo-1, .parrafo-2, .parrafo-3, .parrafo-4{
+        font-size: 18px;
+    }
+
+    .puntuacion{
+        font-size: 22px;
+    }
 }

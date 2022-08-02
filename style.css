@@ -136,6 +136,7 @@ footer{
     justify-content: space-between;
     font-family: 'Oswald', sans-serif;
     margin: 0px 15px 0px 10px;
+    padding-left: 20px;
 }
 
 #nuestrasucursal{
@@ -152,8 +153,8 @@ footer{
     width: 50%;
 }
 
-#textosucursal{
-    margin: 0px 15px 10px 10px;
+.textosucursal{
+    margin: 0px 15px 0px 10px;
     font-family: 'Fresca', sans-serif;
 }
 
@@ -444,6 +445,7 @@ div .col-lg-6{
 
 .titulo-articulo{
     margin: 15px 0px 0px 0px;
+    text-align: center;
 }
 
 .subtitulo-articulo{
