@@ -17,6 +17,7 @@
 
     main{
         margin-top: 10px;
+        padding: 15px 15px 0 15px;
     }
 
     .anchornavbar ul{
@@ -250,10 +251,12 @@
     .grid-content2:nth-child(4){
         width: 100%;
         height: auto;
+        display: flex;
+        justify-content: center;
     }
 
     #bannerpublicidad{
-        width: 90%;
+        width: 60%;
         height: auto;
         margin: 0% 5%;
         border: solid 5px black;
@@ -264,13 +267,16 @@
     }
 
     .botoncuatro{
-        margin: 0% 44%;
+        margin: 0% 30% 5% 30%;
+    }
+
+    .padding-cards{
+        margin-top: 10px;
     }
 
     .imagenesdereviews{
-        width: 70%;
+        width: 100%;
         height: auto;
-        margin: 0% 15%;
     }
 
     .textos-reviews{

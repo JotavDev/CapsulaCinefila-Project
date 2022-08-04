@@ -194,9 +194,10 @@ iframe{
 }
 
 .botoncuatro{
+    width: 50%;
+    margin-left: 25px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 70px;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     background-color: black;
@@ -212,6 +213,8 @@ iframe{
 
 .padding-cards{
     padding: 0px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 /* Aquí termina la sección REVIEWS */
