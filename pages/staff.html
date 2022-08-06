@@ -7,21 +7,37 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../mediaq.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="../multimedia/favicon.png" type="image/x-icon">
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fresca&display=swap" rel="stylesheet">
+
+    <!-- SEO -->
+    <meta name="description" content="Cápsula Cinéfila es un proyecto colaborativo llevado a cabo por las mentes más creativas y talentosas de Latinoamérica. Conoce a cada uno de los miembros del equipo que semana a semana trabajan en redactar y diseñar los mejores artículos de toda la web para tí.">
+    <meta name="keywords" content="Cine, reviews, blog, noticias, películas, críticas, novedades, magazine, artículos, series, netflix, stranger things, revista, farándula, disney, marvel, thor">
+    <meta property="og: title" content="Staff | Cápsula Cinéfila">
+    <meta property="og: description" content="Cápsula Cinéfila es un proyecto colaborativo llevado a cabo por las mentes más creativas y talentosas de Latinoamérica. Conoce a cada uno de los miembros del equipo que semana a semana trabajan en redactar y diseñar los mejores artículos de toda la web para tí.">
     <title>Staff | Cápsula Cinéfila</title>
 </head>
-
 <body>
     <header>
         <nav class="navbar navbar-dark bg-dark">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand float-right col-1" href="../index.html"><img style="max-width:155%; margin-top: -7px;" class="imagen-logo-nav" src="../multimedia/logo.png" alt="Logo"></a>
-            <div class="navbar-collapse collapse" id="navbarColor01" style="">
+            <a href="../index.html"><img class="imagen-logo-nav" src="../multimedia/logo.png" alt="Logo"></a>
+            <div class="navbar-collapse collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../index.html">Lobby <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Lobby</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./reviews.html">Reviews</a>
@@ -30,139 +46,123 @@
                         <a class="nav-link" href="./blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./newsletter.html">Newsletter</a>
+                        <a class="nav-link" href="../index.html#newsletter">Newsletter</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./staff.html">Staff</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./staff.html">Staff <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-    
-    <section>
-        
-        <div class="contenedortextosstaff">
-            <h2 id="titulo-staff" class="titulostaff">Conocé al staff que hace posible Cápsula Cinéfila</h2>
-            <p class="textostaff">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste a dolores quidem magnam deserunt voluptas assumenda officiis. Facere id et reprehenderit minima fugit soluta facilis, quod, numquam, corrupti repudiandae odit!</p>
+
+    <section class="banner-staff">
+        <img class="banner-staff-1" src="../multimedia/banner-staff.png" alt="Poster de la sección Staff" title="Collage de películas de fondo">
+      </section>
+
+    <div class="titulos-articulos" id="titulo-staff">
+        <h1 class="titulo-articulo">Conocé al equipo que hace posible Cápsula Cinéfila</h1>
+    </div>
+
+    <section class="articulo">
+
+        <div class="staff-content primer-div">
+            <img class="staff-imagenes" data-aos="fade-up" src="../multimedia/1-javier.png" alt="Fotografía de Javier Aguirre" title="Javier Aguirre">
+            <div class="textos-staff" data-aos="flip-up">
+                <h2>Javier Aguirre</h2>
+                <h5>Desarrollador web, editor</h5>
+                <p>Egresado como Productor audiovisual en la Universidad Católica Cecilio Acosta en el 2017, Javier es un aifcionado del cine desde pequeño. Actualmente Javier se encuentra cursando la carrera de 'Desarrollo Full Stack' en CODERHOUSE.</p>
+            </div>
         </div>
 
-        <div class="staff-flex">
-            <div class="divdepruebastaff">
-                <div class="divdeprueba2">
-                    <img class="imagenstaffuno" id="angela-prueba" src="../multimedia/angela.jpg" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
-                </div>
-                <div class="contenedortextosaparicion">
-                    <h4 class="textostaff">Ángela Larrazábal</h4>
-                    <h5 class="textostaff">Columnista y crítico de cine</h5>
-                    <p class="textostaff">Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro.</p>
-                </div>
+        <div class="staff-content reverse">
+            <div class="textos-staff" data-aos="fade-right">
+                <h2>Ángela Larrazábal</h2>
+                <h5>Columnista y crítico de cine</h5>
+                <p>Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro. Egresada de la Universidad Católica Cecilio Acosta, Ángela le ha dedicado su vida a la crítica.</p>
             </div>
-
-            <div class="divdepruebastaff">
-                <div class="divstaffuno divdeprueba2">
-                    <img class="imagenstaffuno" id="angela-prueba" src="../multimedia/francisco.jpg" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
-                </div>
-                <div class="contenedortextosaparicion">
-                    <h4 class="textostaff">Francisco Verde</h4>
-                    <h5 class="textostaff">Artista plástico y columnista</h5>
-                    <p class="textostaff">Artista con más de una década de experiencia y varias exposiciones internacionales, Francisco desempeña un rol fundamental en Cápsula Cinéfila.</p>
-                </div>
-            </div>
-
-            <div class="divdepruebastaff">
-                <div class="divstaffuno divdeprueba2">
-                    <img class="imagenstaffuno" id="angela-prueba" src="../multimedia/angela.jpg" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
-                </div>
-                <div class="contenedortextosaparicion">
-                    <h4 class="textostaff">Ángela Larrazábal</h4>
-                    <h5 class="textostaff">Columnista y crítico de cine</h5>
-                    <p class="textostaff">Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro.</p>
-                </div>
-            </div>
-
+            <img class="staff-imagenes" data-aos="fade-up" src="../multimedia/2-angela.png" alt="Fotografía de Ángela Larrazábal" title="Ángela Larrazábal">
         </div>
 
-        <div class="staff-flex">
-            <div class="divdepruebastaff">
-                <div class="divstaffuno divdeprueba2">
-                    <img class="imagenstaffuno" id="angela-prueba" src="../multimedia/francisco.jpg" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
-                </div>
-                <div class="contenedortextosaparicion">
-                    <h4 class="textostaff">Francisco Verde</h4>
-                    <h5 class="textostaff">Artista plástico y columnista</h5>
-                    <p class="textostaff">Artista con más de una década de experiencia y varias exposiciones internacionales, Francisco desempeña un rol fundamental en Cápsula Cinéfila.</p>
-                </div>
+        <div class="staff-content">
+            <img class="staff-imagenes" data-aos="fade-up" src="../multimedia/3-alexander.png" alt="Fotografía de Alexander Rodríguez" title="Alexander Rodríguez">
+            <div class="textos-staff" data-aos="flip-up">
+                <h2>Alexander Rodríguez</h2>
+                <h5>Productor audiovisual y columnista</h5>
+                <p>Apasionado y entusiasta, Alexander es un aficionado al cine desde que tiene conocimiento. Nuestro Columnista y Productor audiovisual sueña con llegar a la pantalla grande en un futuro no muy lejano (y nosotros tenemos la certeza que lo logrará).</p>
             </div>
+        </div>
 
-            <div class="divdepruebastaff">
-                <div class="divstaffuno divdeprueba2">
-                    <img class="imagenstaffuno" id="angela-prueba" src="../multimedia/angela.jpg" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
-                </div>
-                <div class="contenedortextosaparicion">
-                    <h4 class="textostaff">Ángela Larrazábal</h4>
-                    <h5 class="textostaff">Columnista y crítico de cine</h5>
-                    <p class="textostaff">Proactiva, entusiasta e intuitiva son las mejores caracterísitcas que definen a nuestra columnista, quien desde hace más de 4 años se desenvuelve en el rubro.</p>
-                </div>
+        <div class="staff-content reverse">
+            <div class="textos-staff" data-aos="fade-right">
+                <h2>Francisco Verde</h2>
+                <h5>Artista plástico y cinéfilo</h5>
+                <p>Egresado de 'The Florence Academy of Art', Francisco es un artista con más de una década de experiencia y varias exposiciones internacionales. Desempeña un rol fundamental en Cápsula Cinéfila gracias a la perspectiva que le entrega a cada uno de los artículos que escribe para nosotros.</p>
             </div>
+            <img class="staff-imagenes" data-aos="fade-up" src="../multimedia/4-francisco.png" alt="Fotografía de Francisco Verde" title="Francisco Verde">
+        </div>
 
-            <div class="divdepruebastaff">
-                <div class="divstaffuno divdeprueba2">
-                    <img class="imagenstaffuno" id="angela-prueba" src="../multimedia/francisco.jpg" alt="foto de nuestra columnista y crítico de cine Ángela Larrazábal" title="Ángela Larrazábal">
-                </div>
-                <div class="contenedortextosaparicion">
-                    <h4 class="textostaff">Francisco Verde</h4>
-                    <h5 class="textostaff">Artista plástico y columnista</h5>
-                    <p class="textostaff">Artista con más de una década de experiencia y varias exposiciones internacionales, Francisco desempeña un rol fundamental en Cápsula Cinéfila.</p>
-                </div>
+        <div class="staff-content div-final">
+            <img class="staff-imagenes" data-aos="fade-up" src="../multimedia/5-juliett.png" alt="Fotografía de Juliett de la Cruz" title="Juliett de la Cruz">
+            <div class="textos-staff" data-aos="flip-up">
+                <h2>Juliett de la Cruz</h2>
+                <h5>Actriz y periodista</h5>
+                <p>Graduada como Periodista en la Universidad Católica Cecilio Acosta, nuestra querida Juliett ha complementado sus estudios en fotografía, interpretación y producción audiovisual con diversos referentes del rubro. Actualmente se dedica 100% al teatro y a la crítica.</p>
             </div>
         </div>
 
     </section>
-    
+
     <footer>
+
         <div class="divfooterizquierdo">
             <div>
-                <a href="../index.html"><img id="logofooter" src="../multimedia/logo.png" alt="Logo de Cápsula Cinéfila" title="Logo de Cápsula Cinéfila"></a>
+                <a href="index.html"><img id="logofooter" src="../multimedia/logo.png" alt="Logo de Cápsula Cinéfila" title="Logo de Cápsula Cinéfila"></a>
             </div>
 
             <div class="footer">
                 <nav>
                     <ul class="ListaDeSeccionesDos">
-                        <li class="linavbardos"><a href="../index.html">Lobby</a></li>
-                        <li class="linavbardos"><a href="blog.html">Blog</a></li>
-                        <li class="linavbardos"><a href="reviews.html">Reviews</a></li>
-                        <li class="linavbardos"><a href="newsletter.html">Newsletter</a></li>
-                        <li class="linavbardos"><a href="staff.html">Staff</a></li>
+                        <li class="linavbardos"><a class="anchorli" href="../index.html">Lobby</a></li>
+                        <li class="linavbardos"><a class="anchorli" href="./blog.html">Blog</a></li>
+                        <li class="linavbardos"><a class="anchorli" href="./reviews.html">Reviews</a></li>
+                        <li class="linavbardos"><a class="anchorli" href="../index.html#newsletter">Newsletter</a></li>
+                        <li class="linavbardos"><a class="anchorli" href="./staff.html">Staff</a></li>
                     </ul>
                 </nav>
             </div>
 
-            <div class="sucursal">
+            <div>
                 <div class="lineahorizontal">
-                    <h4 id="nuestrasucursal">Nuestra sucursal</h4>
-                    <p>+56 9 3611 8847</p>
+                    <p class="textosucursal">Huérfanos 1055, oficina 503.</p>
+                    <p class="textosucursal">Santiago, Región Metropolitana</p>
+                    <p class="textosucursal">WhatsApp: +56936118847</p>
+                    <p class="textosucursal">contacto@capsulacinefila.com</p>
                 </div>
-                    <p id="textosucursal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deleniti impedit atque. Possimus nostrum laborum fugiat! Tenetur, doloribus blanditiis. Obcaecati id officiis nam explicabo natus dignissimos saepe harum nulla quia.</p>
             </div>
         </div>
 
         <div class="divfooterderecho">
             <div class="mapaeiconos">
-                <!-- Aquí irá un mapa con una dirección ficticia -->
-                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106588.25821638467!2d-70.69980632864507!3d-33.40021470445608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf68a0f4bf81%3A0x4310b1c91a2b5e67!2sMcDonald&#39;s!5e0!3m2!1ses!2scl!4v1653484897069!5m2!1ses!2scl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3779322527303!2d-70.65343268509181!3d-33.439458904333804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a3f56e4607%3A0x2a8a8976a151a288!2sHuerfanos%201055%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1659470692319!5m2!1ses!2scl" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 <ul class="iconsgroup">
                     <li><a href="https://facebook.com" target="_blank"><img src="../multimedia/facebook-icon.png" alt="logo de facebook" title="Logo de Facebook"></a></li>
                     <li><a href="https://twitter.com" target="_blank"><img src="../multimedia/twitter-icon.png" alt="logo de twitter" title="Logo de Twitter"></a></li>
-                    <li><a href="https://instagram.com" target="_blank"><img src="../multimedia/instagram-icon.png" alt="logo de instagram" title="Logo de Instagram"></a></li>
-                    <li><a href="https://youtube.com" target="_blank"><img src="../multimedia/youtube-icon.png" alt="logo de youtube" title="Logo de YouTube"></a></li>
+                    <li><a href="https://www.instagram.com/capsulacinefila.cl/" target="_blank"><img src="../multimedia/instagram-icon.png" alt="logo de instagram" title="Logo de Instagram"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCyaWtq9FBuKr7Xx3W286cKg" target="_blank"><img src="../multimedia/youtube-icon.png" alt="logo de youtube" title="Logo de YouTube"></a></li>
                 </ul>
             </div>
         </div>
 
     </footer>
+
     <script src="../js/jquery.slim.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

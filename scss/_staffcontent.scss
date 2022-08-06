@@ -1,0 +1,77 @@
+@import "mixins.scss";
+
+section{
+
+    .contenedortextosstaff{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        @include anchos(100%);
+        height: auto;
+
+        #titulo-staff{
+            margin: 50px 0px 15px 0px;
+            font-size: 45px;
+        }
+
+        .textostaff{
+            margin-bottom: 25px;
+            @include anchos(70%);
+            text-align: center;
+        }
+    }
+
+    .staff-flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+
+        .divdepruebastaff{
+            width: 25%;
+            height: 60vh;
+            overflow: hidden;
+            margin: 0px 10px;
+            border-radius: 15px;
+
+            &:hover .contenedortextosaparicion{
+                opacity: 100%;
+            }
+
+            .divdeprueba2{
+                width: 100%;
+                height: 100%;
+
+                .imagenstaffuno{
+                    width: 100%;
+                    height: 100%;
+                    margin: 0px;
+                    background-color: black;
+                }  
+            }
+
+            .contenedortextosaparicion{
+                opacity: 1%;
+                transform: translateY(-100%);
+                background-color: rgba(7, 7, 7, 0.644);
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: end;
+                transition: 0.5s;
+                color: white;
+
+                .textostaff{
+                    text-align: center;
+                    margin-bottom: 25px;
+                    width: 80%;
+                }
+            }
+        }
+    }
+
+}

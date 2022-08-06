@@ -1,0 +1,48 @@
+@import "mixins.scss";
+
+section{
+    .contenedorangela{
+        @include coloresdefondo(gold);
+        display: flex;
+        justify-content: center;
+
+        #contenedorangela{
+            border: solid 5px black;
+            border-radius: 100%;
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+    .titulocarta{
+        text-align: center;
+    }
+
+    .textocarta{
+        text-align: center;
+        margin: 0px 50px;
+    }
+
+    .contenedornewsletter{
+        display: flex;
+        align-items: center;
+        @include anchos(100%);
+
+        .contenedorimagennews{
+            @include anchos(50%);
+            margin: 15px 15px 15px 0px;
+
+            #imagenformulario{
+                @include anchos(100%);
+            }
+        }
+
+        .contenedorform{
+            width: 50%;
+            text-justify: center;
+            border: solid black 1.2px;
+            padding: 10px;
+            border-radius: 15px;
+        }
+    }
+}

@@ -7,8 +7,25 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../mediaq.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="../multimedia/favicon.png" type="image/x-icon">
-    <title>Reviews | Cápsula Cinéfila</title>
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fresca&display=swap" rel="stylesheet">
+
+    <!-- SEO -->
+    <meta name="description" content="En Cápsula Cinéfila encontrarás reviews de Thor: love and thunder, Sound of metal, Swiss Army Man, Doctor Strange y muchísimas otras películas de la industria del cine y el entretenimiento. Has clic, toma asiento, ponte cómodo y disfruta de los artículos que tenemos para tí.">
+    <meta name="keywords" content="cine, películas, series, televisión, entretenimiento, magazine, revista, farándula, thor, doctor strange, marvel, disney, críticas, novedades, netflix, artículos, stranger things">
+    <meta property="og: title" content="Reviews | Cápsula Cinéfila | Las mejores críticas del cine">
+    <meta property="og: description" content="En Cápsula Cinéfila encontrarás reviews de Thor: love and thunder, Sound of metal, Swiss Army Man, Doctor Strange y muchísimas otras películas de la industria del cine y el entretenimiento. Has clic, toma asiento, ponte cómodo y disfruta de los artículos que tenemos para tí.">
+    <title>Reviews | Cápsula Cinéfila | Las mejores críticas del cine</title>
 </head>
 
 <body>
@@ -17,20 +34,20 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <a class="navbar-brand float-right col-1" href="../index.html"><img style="max-width:155%; margin-top: -7px;" class="imagen-logo-nav" src="../multimedia/logo.png" alt="Logo"></a>
-              <div class="navbar-collapse collapse" id="navbarColor01" style="">
+              <a href="../index.html"><img class="imagen-logo-nav" src="../multimedia/logo.png" alt="Logo"></a>
+              <div class="navbar-collapse collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="../index.html">Lobby <span class="sr-only">(current)</span></a>
-                  </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./reviews.html">Reviews</a>
+                    <a class="nav-link" href="../index.html">Lobby</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="./reviews.html">Reviews <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./blog.html">Blog</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./newsletter.html">Newsletter</a>
+                    <a class="nav-link" href="../index.html#newsletter">Newsletter</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./staff.html">Staff</a>
@@ -42,24 +59,22 @@
 
     <main class="grid-container2">
 
-        <!-- Banner -->
         <div class="grid-content2">
             <img id="bannertres" src="../multimedia/banner-3.png" alt="Banner del sitio" title="Poster de la sección reviews">
         </div>
 
-        <!-- Resumen Kill Bill Vol. 1-->
+        <!-- Resumen Big Fish -->
         <div class="grid-content2">
-            <img id="oren" class="imagenesprincipales" src="../multimedia/r-1.png" alt="Collage de Kill Bill Vol. 1" title="Poster de tipo collage sobre Kill Bill Vol. 1">
+            <img id="big-fish" class="imagenesprincipales" src="../multimedia/r-1.png" alt="Imagen de los protagonistas acostados en un rosal amarillo, sonriéndose" title="Big Fish">
         </div>
-
         <div class="card grid-content2">
             <div class="card-header">
-              Kill Bill Vol. 1
+              Big Fish
             </div>
             <div class="card-body">
-                <h2 class="textos-reviews">¿Nuestro film favorito de Tarantino?</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum rerum tempora doloremque, deserunt eveniet quam accusantium nemo architecto dicta, labore, earum quo. Repudiandae asperiores quo quidem molestiae, ipsam inventore sunt!</p>
-                <a href="#" class="btn btn-dark">Leer review</a>
+                <h2>Una película de Tim Burton, aunque usted no lo crea.</h2>
+                <p class="card-text">Big fish narra la historia de Edward Bloom, un hombre que cuenta las historias de su vida a todo aquel que esté dispuesto a escucharlo. Will, su hijo, considera que su padre es un infantil y corta todo tipo de relación con él hasta que su padre cae en cama y juntos experimentan el concepto de la muerte.</p>
+                <a href="./bigfish.html" class="btn btn-dark boton">Leer review</a>
             </div>
         </div>
 
@@ -68,94 +83,97 @@
             <img id="bannerpublicidad" src="../multimedia/anuncio.png" alt="anuncio" title="Poster de anuncio">
         </div>
 
-        <!-- Resumen Matrix Resurrecciones -->
+        <!-- Resumen Hustle -->
         <div class="card grid-content2">
             <div class="card-header">
-              Matrix Resurrections
+              Hustle
             </div>
             <div class="card-body">
-                <h2 class="textos-reviews">¡NECESITAMOS LA PASTILLA DEL OLVIDO!</h2>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum rerum tempora doloremque, deserunt eveniet quam accusantium nemo architecto dicta, labore, earum quo. Repudiandae asperiores quo quidem molestiae, ipsam inventore sunt!</p>
-                <a href="#" class="btn btn-dark">Leer review</a>
+                <h2 class="textos-reviews">¿Esperamos mucho de Adam Sandler?</h2>
+                <p class="card-text">Adam Sandler, uno de los actores de comedia más icónico de esta época, regresa en una faceta mucho más seria en su nueva película en colaboración con Netflix. Hustle muestra el lado más duro de las jóvenes promesas del básquetbol que luchan para hacerse un hueco dentro de la NBA.</p>
+                <a href="./hustle.html" class="btn btn-dark boton">Leer review</a>
             </div>
         </div>
         <div class="grid-content2">
-            <img id="matrix" class="imagenesprincipales" src="..//multimedia/r-6.png" alt="Imagen de Matrix" title="Neo y Trinity en Matrix Resurrections">
+            <img id="matrix" class="imagenesprincipales" src="../multimedia/r-6.png" alt="Imagen de Hustle" title="Hustle">
         </div>
 
         <!-- Reviews anteriores -->
         <div class="card grid-content2">
-            <img class="imagenesdereviews" src="../multimedia/r-2.png" alt="Fan Art de Donnie Darko" title="Poster de Donnie Darko">
-            <h2></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio porro autem obcaecati veritatis omnis dolore eligendi corporis consequatur voluptates ex, ducimus ut recusandae maiores possimus, rem architecto! Cumque, aut modi.</p>
-            <a class="btn btn-dark botoncuatro" href="">Leer review</a>
+            <img class="imagenesdereviews" src="../multimedia/r-2.png" alt="Thor: love and thunder" title="Chris Hemsworth en su papel de Thor">
+            <p class="padding-cards">El dios del trueno vuelve a las andadas en este nuevo título 'Thor: Love and thunder'. Cargada de mucho humor, la excelentísima actuación de Christian Bale y una que otra sorpresa, en Cápsula Cinéfila te contamos que nos pareció.</p>
+            <a class="btn btn-dark boton botoncuatro" href="./thor.html">Leer review</a>
         </div>
 
         <div class="card grid-content2">
             <img class="imagenesdereviews" src="../multimedia/r-3.png" alt="Imagen de la película Swiss Army Men" title="Swiss Army Men">
-            <h2></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio porro autem obcaecati veritatis omnis dolore eligendi corporis consequatur voluptates ex, ducimus ut recusandae maiores possimus, rem architecto! Cumque, aut modi.</p>
-            <a class="btn btn-dark botoncuatro buttom" href="">Leer review</a>
+            <p class="padding-cards">Hank es un náufrago suicida que se encuentra solo en una isla desierta. Un día descubre un cadáver en la orilla, se trata del cuerpo de Manny. Será entonces cuando Hank comience a comunicarse con él, inventándose una historia emocional propia.</p>
+            <a class="btn btn-dark boton botoncuatro" href="./sam.html">Leer review</a>
         </div>
 
         <div class="card grid-content2">
             <img class="imagenesdereviews" src="../multimedia/r-4.png" alt="Imagen de la película Everything Everywhere all at once" title="Everything everywhere all at once">
-            <h2></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio porro autem obcaecati veritatis omnis dolore eligendi corporis consequatur voluptates ex, ducimus ut recusandae maiores possimus, rem architecto! Cumque, aut modi.</p>
-            <a class="btn btn-dark botoncuatro buttom" href="">Leer review</a>
+            <p class="padding-cards">Una inmigrante china, se ve envuelta en una aventura salvaje en la que solo ella puede salvar el mundo. Desafortunadamente, esto la lleva a una aventura aún mayor cuando se encuentra perdida en los mundos infinitos del multiverso.</p>
+            <a class="btn btn-dark boton botoncuatro" href="./everything.html">Leer review</a>
         </div>
 
         <div class="card grid-content2">
-            <video class="imagenesdereviews" src="../multimedia/blog-2.mp4" muted autoplay loop></video>
-            <h2></h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio porro autem obcaecati veritatis omnis dolore eligendi corporis consequatur voluptates ex, ducimus ut recusandae maiores possimus, rem architecto! Cumque, aut modi.</p>
-            <a class="btn btn-dark botoncuatro buttom" href="">Leer review</a>
+            <img class="imagenesdereviews" src="../multimedia/r-5.png" alt="Sound of metal" title="Sound of metal">
+            <p class="padding-cards">Imagina despertar un día y haber perdido por completo uno de tus sentidos, 'Sound of metal' narra esa idea. Rubén es un joven baterista que tendrá que luchar para aceptar la etapa más difícil de su vida. Lee la crítica y descubre la puntuación.</p>
+            <a class="btn btn-dark boton botoncuatro" href="./soundofmetal.html">Leer review</a>
         </div>
     </main>
 
     <footer>
+
         <div class="divfooterizquierdo">
             <div>
-                <a href="../index.html"><img id="logofooter" src="../multimedia/logo.png" alt="Logo de Cápsula Cinéfila" title="Logo de Cápsula Cinéfila"></a>
+                <a href="index.html"><img id="logofooter" src="../multimedia/logo.png" alt="Logo de Cápsula Cinéfila" title="Logo de Cápsula Cinéfila"></a>
             </div>
 
             <div class="footer">
                 <nav>
                     <ul class="ListaDeSeccionesDos">
-                        <li class="linavbardos"><a href="../index.html">Lobby</a></li>
-                        <li class="linavbardos"><a href="blog.html">Blog</a></li>
-                        <li class="linavbardos"><a href="reviews.html">Reviews</a></li>
-                        <li class="linavbardos"><a href="newsletter.html">Newsletter</a></li>
-                        <li class="linavbardos"><a href="staff.html">Staff</a></li>
+                        <li class="linavbardos"><a class="anchorli" href="../index.html">Lobby</a></li>
+                        <li class="linavbardos"><a class="anchorli" href="./blog.html">Blog</a></li>
+                        <li class="linavbardos"><a class="anchorli" href="./reviews.html">Reviews</a></li>
+                        <li class="linavbardos"><a class="anchorli" href="../index.html#newsletter">Newsletter</a></li>
+                        <li class="linavbardos"><a class="anchorli" href="./staff.html">Staff</a></li>
                     </ul>
                 </nav>
             </div>
 
-            <div class="sucursal">
+            <div>
                 <div class="lineahorizontal">
-                    <h4 id="nuestrasucursal">Nuestra sucursal</h4>
-                    <p>+56 9 3611 8847</p>
+                    <p class="textosucursal">Huérfanos 1055, oficina 503.</p>
+                    <p class="textosucursal">Santiago, Región Metropolitana</p>
+                    <p class="textosucursal">WhatsApp: +56936118847</p>
+                    <p class="textosucursal">contacto@capsulacinefila.com</p>
                 </div>
-                    <p id="textosucursal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur deleniti impedit atque. Possimus nostrum laborum fugiat! Tenetur, doloribus blanditiis. Obcaecati id officiis nam explicabo natus dignissimos saepe harum nulla quia.</p>
             </div>
         </div>
 
         <div class="divfooterderecho">
             <div class="mapaeiconos">
-                <!-- Aquí irá un mapa con una dirección ficticia -->
-                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106588.25821638467!2d-70.69980632864507!3d-33.40021470445608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf68a0f4bf81%3A0x4310b1c91a2b5e67!2sMcDonald&#39;s!5e0!3m2!1ses!2scl!4v1653484897069!5m2!1ses!2scl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3779322527303!2d-70.65343268509181!3d-33.439458904333804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5a3f56e4607%3A0x2a8a8976a151a288!2sHuerfanos%201055%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1659470692319!5m2!1ses!2scl" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 <ul class="iconsgroup">
                     <li><a href="https://facebook.com" target="_blank"><img src="../multimedia/facebook-icon.png" alt="logo de facebook" title="Logo de Facebook"></a></li>
                     <li><a href="https://twitter.com" target="_blank"><img src="../multimedia/twitter-icon.png" alt="logo de twitter" title="Logo de Twitter"></a></li>
-                    <li><a href="https://instagram.com" target="_blank"><img src="../multimedia/instagram-icon.png" alt="logo de instagram" title="Logo de Instagram"></a></li>
-                    <li><a href="https://youtube.com" target="_blank"><img src="../multimedia/youtube-icon.png" alt="logo de youtube" title="Logo de YouTube"></a></li>
+                    <li><a href="https://www.instagram.com/capsulacinefila.cl/" target="_blank"><img src="../multimedia/instagram-icon.png" alt="logo de instagram" title="Logo de Instagram"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCyaWtq9FBuKr7Xx3W286cKg" target="_blank"><img src="../multimedia/youtube-icon.png" alt="logo de youtube" title="Logo de YouTube"></a></li>
                 </ul>
             </div>
         </div>
 
     </footer>
+    
     <script src="../js/jquery.slim.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
