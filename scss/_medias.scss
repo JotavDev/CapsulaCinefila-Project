@@ -1,0 +1,59 @@
+@media only screen and (max-width:425px){
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+
+        .divfooterizquierdo{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            align-content: center;
+        }
+
+        .footer{
+            nav{
+                .ListaDeSeccionesDos{
+                    width: 100%;
+
+                    .linavbardos{
+                        font-size: 100%;
+                        list-style: none;
+                    }
+
+                    .anchorli{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .lineahorizontal{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .divfooterderecho{
+        width: 100%;
+        height: auto;
+
+        .mapaeiconos{
+            width: 100%;
+
+            iframe{
+                width: 100%;
+            }
+
+            .iconsgroup img{
+                width: 20%;
+                height: auto;
+            }
+        }
+    }
+}

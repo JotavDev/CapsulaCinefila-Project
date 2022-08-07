@@ -45,25 +45,18 @@ footer{
                     }
                 }
             }
+    
+            .lineahorizontal{
+                display: flex;
+                justify-content: space-between;
+                margin: 0px 15px 0px 10px;
+                padding: 10px 0px 0px 20px;
 
-            .sucursal{
-                text-align: auto;
-                margin: 0px 25px;
-    
-                .lineahorizontal{
-                    display: flex;
-                    justify-content: space-between;
+                .textosucursal{
                     margin: 0px 15px 0px 10px;
-    
-                    #nuestrasucursal{
-                        font-size: 35px;
-                        margin: 0px; 
-                    }
+                    font-family: 'Fresca', sans-serif;
                 }
     
-                #textosucursal{
-                    margin: 0px 15px 10px 10px;
-                }
             }
 
         }
@@ -74,7 +67,6 @@ footer{
         iframe{
             height: 100%;
         }
-
 
         .mapaeiconos{
             width: map-get($mapaeiconos, ancho);

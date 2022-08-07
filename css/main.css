@@ -24,18 +24,14 @@ footer {
         font-size: 25px;
         margin: 15px 15px;
         list-style: none; }
-    footer .divfooterizquierdo .sucursal {
-      text-align: auto;
-      margin: 0px 25px; }
-      footer .divfooterizquierdo .sucursal .lineahorizontal {
-        display: flex;
-        justify-content: space-between;
-        margin: 0px 15px 0px 10px; }
-        footer .divfooterizquierdo .sucursal .lineahorizontal #nuestrasucursal {
-          font-size: 35px;
-          margin: 0px; }
-      footer .divfooterizquierdo .sucursal #textosucursal {
-        margin: 0px 15px 10px 10px; }
+    footer .divfooterizquierdo .lineahorizontal {
+      display: flex;
+      justify-content: space-between;
+      margin: 0px 15px 0px 10px;
+      padding: 10px 0px 0px 20px; }
+      footer .divfooterizquierdo .lineahorizontal .textosucursal {
+        margin: 0px 15px 0px 10px;
+        font-family: 'Fresca', sans-serif; }
   footer .divfooterderecho {
     width: 50%; }
     footer .divfooterderecho iframe {
@@ -194,7 +190,110 @@ section .staff-flex {
         margin-bottom: 25px;
         width: 80%; }
 
-        .imagen-logo-nav{
-          width: 131px;
-          height: auto;
-      }
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./multimedia/marmol-background.jpg); }
+
+.banner-articles {
+  width: 100%;
+  height: 45%; }
+  .banner-articles .banner-articles-1 {
+    width: 100%;
+    height: 100%; }
+
+.titulos-articulos {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .titulos-articulos .titulo-articulo {
+    margin: 15px 0px 0px 0px;
+    text-align: center; }
+  .titulos-articulos .subtitulo-articulo {
+    margin: 0px; }
+  .titulos-articulos .autor-articulo {
+    margin: 0px; }
+
+.articulo {
+  width: 70%;
+  height: auto;
+  margin: 30px 15% 0px 15%; }
+  .articulo .div-articulo {
+    width: 100%; }
+    .articulo .div-articulo .parrafo-1 {
+      font-size: 20px; }
+    .articulo .div-articulo .parrafo-2 {
+      font-size: 20px;
+      margin-top: 20px; }
+    .articulo .div-articulo .parrafo-3 {
+      font-size: 20px;
+      margin-top: 20px; }
+    .articulo .div-articulo .parrafo-4 {
+      font-size: 20px;
+      margin-top: 20px; }
+    .articulo .div-articulo .imagenes-articulos {
+      width: 100%;
+      height: auto; }
+    .articulo .div-articulo .banner-horizontal {
+      width: 100%;
+      height: auto;
+      margin: 50px 0px 50px 0px; }
+    .articulo .div-articulo .puntuacion {
+      text-align: center;
+      margin: 50px 0px 50px 0px; }
+    .articulo .div-articulo .iframe-trailer {
+      width: 100%;
+      height: 500px;
+      margin: 50px 0px 50px 0px; }
+
+.articulos-relacionados {
+  width: 70%;
+  margin: 0% 15% 0% 15%; }
+  .articulos-relacionados .quizas-quieras-leer {
+    margin-top: 25px;
+    margin-bottom: 75px; }
+    .articulos-relacionados .quizas-quieras-leer .boton {
+      font-family: 'Oswald', sans-serif;
+      transition-property: all;
+      transition-duration: 1s; }
+      .articulos-relacionados .quizas-quieras-leer .boton:hover {
+        transform: scale(1.1); }
+
+.imagen-logo-nav {
+  width: 131px;
+  height: auto; }
+
+@media only screen and (max-width: 425px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto; }
+    footer .divfooterizquierdo {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      align-content: center; }
+    footer .footer nav .ListaDeSeccionesDos {
+      width: 100%; }
+      footer .footer nav .ListaDeSeccionesDos .linavbardos {
+        font-size: 100%;
+        list-style: none; }
+      footer .footer nav .ListaDeSeccionesDos .anchorli {
+        font-size: 16px; }
+    footer .lineahorizontal {
+      display: flex;
+      flex-direction: column; }
+  .divfooterderecho {
+    width: 100%;
+    height: auto; }
+    .divfooterderecho .mapaeiconos {
+      width: 100%; }
+      .divfooterderecho .mapaeiconos iframe {
+        width: 100%; }
+      .divfooterderecho .mapaeiconos .iconsgroup img {
+        width: 20%;
+        height: auto; } }
